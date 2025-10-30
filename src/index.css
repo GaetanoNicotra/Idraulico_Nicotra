@@ -1,0 +1,16 @@
+/* HEADER */
+
+.header img {
+  width: 300px;
+}
+
+.link-hedaer,
+li:hover {
+  border-bottom: 2px solid rgb(2, 70, 196)
+}
+
+/* HOMEPAGE */
+
+.jumbotron {
+  margin: auto;
+}
