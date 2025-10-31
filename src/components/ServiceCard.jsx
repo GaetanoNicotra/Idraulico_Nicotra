@@ -5,7 +5,6 @@ const ServiceCard = () => {
         <>
             <div className="container">
                 <div className="row">
-
                     <div className='col-lg-12 d-flex'>
                         <h4 className=''>I nostri servizi</h4>
                         <div className='d-flex flex-wrap'>

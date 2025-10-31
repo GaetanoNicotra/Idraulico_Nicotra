@@ -9,8 +9,7 @@
   box-shadow: 10px 10px 30px -25px rgba(0, 0, 0, 0.88);
 }
 
-.link-hedaer,
-li:hover {
+.link-header li:hover {
   border-bottom: 2px solid #FD0100
 }
 
@@ -34,6 +33,7 @@ li:hover {
 
 .card-servizi img {
   width: 200px;
+
 }
 
 .divisore {
@@ -41,7 +41,16 @@ li:hover {
   border-bottom: 3px solid #FD0100;
 }
 
-.text-overlay {
-  display: flex;
-  justify-content: center;
+/* FOOTER */
+.footer img {
+  width: 300px;
+}
+
+i {
+  font-size: 20px;
+  color: #fd00009f;
+}
+
+.bg-footer {
+  background-color: #131414;
 }
