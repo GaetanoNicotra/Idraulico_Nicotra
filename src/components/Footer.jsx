@@ -8,14 +8,16 @@ const Footer = () => {
 
                     <div className="col-lg-12 d-flex justify-content-around mt-4 mb-5">
                         <ul className='list-unstyled text-white'>
-                            <li className='pb-3'><h4>Contatti</h4></li>
-                            <li><i className="pb-3 fa-solid fa-mobile-screen-button"></i> 338 772 5379</li>
-                            <li><i className="pb-3 fa-solid fa-phone"></i> 095 351 281</li>
-                            <li><i className="pb-3 fa-regular fa-envelope-open"></i> raimonicotra@virgilio.it</li>
+                            <li className='pb-2'><h4>Contatti</h4></li>
+                            <hr className='pb-3 w-75' />
+                            <li><i className="pb-3 fa-solid fa-mobile-screen-button"></i><a href="tel:+393387725379"> 338 772 5379</a></li>
+                            <li><i className="pb-3 fa-solid fa-phone"></i><a href="tel:+39095351281"> 095 351 281</a></li>
+                            <li><i className="pb-3 fa-regular fa-envelope-open"></i><a href="mailto:raimonicotra@virgilio.it">raimonicotra@virgilio.it</a> </li>
                         </ul>
 
                         <ul className='list-unstyled text-white'>
-                            <li className='pb-3'><h4>I Nostri orari</h4></li>
+                            <li className='pb-2'><h4>I Nostri orari</h4></li>
+                            <hr className='pb-3 w-75' />
                             <li className='pb-3'>Lunedi - Venerdi : 8:00 - 19:00</li>
                             <li className='pb-3'>Sabato: 8:00 - 13:00</li>
                             <li className='pb-3'>Domenica: Chiusi</li>
@@ -24,8 +26,13 @@ const Footer = () => {
 
                         <ul className='list-unstyled text-white'>
                             <li className='pb-2'><h4>Social</h4></li>
+                            <hr className='pb-3 w-75' />
                             <li className='text-center'>
-                                <i className="fa-brands fa-whatsapp pe-5"></i>
+                                <a
+                                    href="https://wa.me/393387725379?text=Salve,%20vorrei%20essere%20contattato"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                > <i className="fa-brands fa-whatsapp pe-5"></i></a>
                                 <i className="fa-brands fa-facebook-f"></i>
                             </li>
 

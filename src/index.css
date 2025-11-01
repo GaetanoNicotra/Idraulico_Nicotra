@@ -28,17 +28,34 @@
 
 .card-servizi {
   height: 200px;
-
 }
 
 .card-servizi img {
   width: 200px;
-
 }
 
 .divisore {
   width: 150px;
   border-bottom: 3px solid #FD0100;
+}
+
+.text-overlay {
+  color: black;
+  position: relative;
+  top: 32%;
+  left: 10px;
+  background-color: rgba(231, 231, 231, 0.637);
+  width: 150px;
+  padding: 10px;
+  text-align: center;
+}
+
+.card-servizi img:hover {
+  filter: opacity(0.5);
+}
+
+.bg-section-home {
+  background-color: #E3DFDE;
 }
 
 /* FOOTER */
@@ -48,7 +65,7 @@
 
 i {
   font-size: 20px;
-  color: #fd00009f;
+  color: #fd0000ab;
 }
 
 .bg-footer {
