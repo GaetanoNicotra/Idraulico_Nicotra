@@ -1,19 +1,51 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 
 const Header = () => {
     return (
-        <>
-            <div className='d-flex justify-content-around mt-4 align-items-center header nav'>
-                <Link to='/'><img src="src/assets/imgs/Idraulico_Nicotra_Logo.jpg" alt="logo_header" className='pb-3' /></Link>
-                <ul className='d-flex list-unstyled gap-5 link-header'>
-                    <li>Home</li>
-                    <li>Contatti</li>
-                    <li>Servizi</li>
-                    <li>Gallery</li>
-                </ul>
+        <nav className="navbar navbar-expand-lg mt-3">
+            <div className="container-fluid d-flex align-items-center justify-content-between me-4 ms-4">
+
+                {/* Logo header */}
+
+                <Link to='/'><img src="src/assets/imgs/img_home/Idraulico_Nicotra_Logo.jpg" alt="logo_header" className='pb-3 mt-2' /></Link>
+
+                {/* Hamburger menù */}
+                <button
+                    className="navbar-toggler rounded bg-body-secondary border-0 p-2 shadow-sm"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation" >
+                    <span><i className="fa-solid fa-bars fs-3 text-dark"></i></span>
+                </button>
+
+                {/* Link header */}
+                <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+
+                    <ul className='navbar-nav d-flex align-items-center gap-lg-5 link-header'>
+                        <li className="nav-item">
+                            <Link to='/' className='nav-link text-black'>Home</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to='/' className='nav-link text-black'>Contatti</Link>
+                        </li>
+                        <li className="nav-item">
+                            <HashLink smooth to="/#services" className="nav-link text-black">
+                                Servizi
+                            </HashLink>
+                        </li>
+                        <li className="nav-item">
+                            <HashLink smooth to="/pagina-Bagni#gallery" className='nav-link text-black'>Gallery</HashLink>
+                        </li>
+                    </ul>
+
+                </div>
             </div>
-        </>
+        </nav >
     )
 }
 
