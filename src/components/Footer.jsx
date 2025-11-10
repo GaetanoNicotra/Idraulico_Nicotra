@@ -15,11 +15,11 @@ const Footer = () => {
                                 <hr className="pb-4 w-75 m-auto" />
                                 <li>
                                     <i className="pb-4 fa-solid fa-phone"></i>
-                                    <a href="tel:+39095351281" className="text-white px-2">095 351 281</a>
+                                    <a href="tel:+39095351281" className="text-white px-2">095 351281</a>
                                 </li>
                                 <li>
                                     <i className="pb-4 fa-solid fa-mobile-screen-button"></i>
-                                    <a href="tel:+393387725379" className="text-white px-2">338 772 5379</a>
+                                    <a href="tel:+393387725379" className="text-white px-2">338 7725379</a>
                                 </li>
 
                                 <li>

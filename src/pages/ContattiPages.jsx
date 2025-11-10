@@ -59,13 +59,13 @@ const ContattiPages = () => {
                             <li>
                                 <b>Telefono</b>
                                 <a href="tel:+39095351281" className="text-body px-2">
-                                    095 351 281
+                                    095 351281
                                 </a>
                             </li>
                             <li>
                                 <b>Cellulare</b>
                                 <a href="tel:+393387725379" className="text-body px-2">
-                                    338 772 5379
+                                    338 7725379
                                 </a>
                             </li>
                             <li>

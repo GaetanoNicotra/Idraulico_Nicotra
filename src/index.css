@@ -43,6 +43,7 @@ nav {
   font-weight: 700;
 }
 
+
 /* HOMEPAGE */
 
 .jumbotron {
@@ -136,7 +137,6 @@ nav {
   backdrop-filter: blur(10px) saturate(160%);
   border: 1px solid rgba(255, 255, 255, 0.4);
 }
-
 
 .carousel-description h5 {
   font-size: 1.4rem;
@@ -298,13 +298,6 @@ i {
     left: 80px;
   }
 
-  /* #bagni, */
-  /* .carousel-img {
-    height: 600px;
-    max-width: 900px;
-    object-fit: cover;
-    margin: auto;
-  } */
 }
 
 /* Altri stili */

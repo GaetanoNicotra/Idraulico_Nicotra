@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
 
 const Header = () => {
+
+    const [menuOpen, setMenuOpen] = useState(false);
+
     return (
         <nav className="navbar navbar-expand-lg py-3">
             <div className="container-fluid d-flex align-items-center justify-content-between me-4 ms-4">
@@ -18,9 +21,9 @@ const Header = () => {
                     data-bs-toggle="collapse"
                     data-bs-target="#navbarNav"
                     aria-controls="navbarNav"
-                    aria-expanded="false"
+                    aria-expanded={menuOpen ? "true" : "false"}
                     aria-label="Toggle navigation" >
-                    <span><i className="fa-solid fa-bars fs-3 text-dark"></i></span>
+                    <span onClick={() => setMenuOpen(!menuOpen)}>{menuOpen ? <i className="fa-solid fa-xmark fs-3 text-dark"></i> : <i className="fa-solid fa-bars fs-3 text-dark"></i>}</span>
                 </button>
 
                 {/* Link header */}
