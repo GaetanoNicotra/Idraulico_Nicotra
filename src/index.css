@@ -1,4 +1,13 @@
 /* UTILITI */
+
+.mx-h {
+  max-height: 650px;
+}
+
+.color-red {
+  color: #FD0100;
+}
+
 .nav-link {
   color: inherit;
   text-decoration: none;
@@ -6,19 +15,12 @@
 
 .nav-link:hover {
   color: #FD0100;
+  transition: all 0.4s ease;
 }
 
 .nav-link.active {
   border-bottom: 2px solid #FD0100;
   color: #FD0100;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-  /* font-family: 'Roboto Condensed, san-serif'; */
 }
 
 body {
@@ -55,19 +57,19 @@ nav {
 }
 
 
-.divisore {
+.border-custom {
   width: 150px;
   border-bottom: 3px solid #FD0100;
 }
 
-#divisore {
+#border-custom {
   width: 185px;
   border-bottom: 3px solid #FD0100;
 }
 
 /* SEZIONE SERVIZI  */
 
-.divisore2 {
+.border-custom2 {
   width: 10%;
   border-bottom: 3px solid #FD0100;
 }
@@ -109,61 +111,14 @@ nav {
   border-radius: 50%;
 }
 
-details {
-  background-color: #f5f5f5;
-  border-radius: 8px;
-  padding: 10px 15px;
-  margin-top: 15px;
-  transition: all 0.3s ease;
-  cursor: pointer;
-}
-
-/* Quando è aperto */
-details[open] {
-  background-color: #e9f5ff;
-  border-color: #ffffff;
-  box-shadow: 0 0 8px rgba(21, 36, 51, 0.541);
-}
-
-/* Titolo (summary) */
-summary {
-  display: inline-flex;
-  align-items: center;
-  font-weight: 600;
-  font-size: 20px;
-  color: #222;
-  list-style: none;
-  position: relative;
-  padding: 0;
-  margin: 0;
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
-/* Rimuove la freccetta nativa */
-summary::-webkit-details-marker {
-  display: none;
-}
-
-/* Freccetta personalizzata */
-summary::after {
-  content: '›';
-  font-size: 37px;
-  margin-left: 6px;
-  transition: transform 0.3s ease;
-}
-
-/* Ruota la freccia quando è aperto */
-details[open] summary::after {
-  transform: rotate(90deg);
-}
 
 /* PAGINA IMPIANTI */
 
 .carousel-img {
-  max-height: 800px;
+  height: 400px;
+  max-width: 800px;
   object-fit: cover;
+  margin: auto;
 }
 
 .carousel-description {
@@ -197,34 +152,42 @@ details[open] summary::after {
   margin: 0;
 }
 
-/* PAGINA BAGNI */
 
-#carouselImpianti .carousel-control-prev {
-  left: 25%;
+/* PAGINA CONTATTI */
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
 }
 
-#carouselImpianti .carousel-control-next {
-  right: 25%;
+.img_contatti {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
-/* PAGINA BOX DOCCIA */
-
-#carouselBox .carousel-control-prev {
-  left: 32%;
+/* Sfumatura bianca sull’immagine */
+.image-container::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 60%, rgba(255, 255, 255, 0.901) 100%);
+  pointer-events: none;
 }
 
-#carouselBox .carousel-control-next {
-  right: 32%;
+.overlay-title {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
-/* PAGINA AUTOCLAVE */
-
-#carouselAutoclave .carousel-control-prev {
-  left: 25%;
-}
-
-#carouselAutoclave .carousel-control-next {
-  right: 25%;
+.overlay-title h1 {
+  font-weight: 600;
 }
 
 /* FOOTER */
@@ -241,10 +204,43 @@ i {
   background-color: #131414;
 }
 
+/* MEDIA QUERY */
+
 /* Da 0 a 400px */
 @media screen and (max-width:400px) {
   .text-overlay {
-    left: 60px;
+    left: 55px;
+  }
+
+  #carouselBox,
+  carousel-img {
+    height: 600px;
+    max-width: 900px;
+    object-fit: cover;
+    margin: auto;
+  }
+
+  .carousel-control-prev {
+    left: 5%;
+  }
+
+  .carousel-control-next {
+    right: 5%;
+  }
+
+  #img-house-wood {
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+  }
+
+  .overlay-title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
   }
 }
 
@@ -253,17 +249,19 @@ i {
   .text-overlay {
     left: 100px;
   }
-
-  h5 {
-    font-size: 5px;
-  }
 }
 
 /* Da 501px a 767px */
 @media screen and (min-width:501px) and (max-width:767px) {
   .text-overlay {
-    left: 130px;
+    left: 145px;
   }
+
+  .jumbotron {
+    padding-bottom: 30px;
+  }
+
+
 }
 
 /* Da 768px a 1198px */
@@ -273,11 +271,40 @@ i {
   }
 }
 
+@media screen and (min-width:990px) {
+  .carousel-img {
+    height: 500px;
+    max-width: 800px;
+    object-fit: cover;
+    margin: auto;
+  }
+
+  #carouselBox .carousel-control-prev {
+    left: 18%;
+  }
+
+  #carouselBox .carousel-control-next {
+    right: 18%;
+  }
+
+  #addolcitore {
+    width: 40% !important;
+  }
+}
+
 /* 1199px in su */
 @media screen and (min-width:1199px) {
   .text-overlay {
     left: 80px;
   }
+
+  /* #bagni, */
+  /* .carousel-img {
+    height: 600px;
+    max-width: 900px;
+    object-fit: cover;
+    margin: auto;
+  } */
 }
 
 /* Altri stili */
@@ -288,5 +315,9 @@ i {
 
   nav img {
     width: 150px;
+  }
+
+  .nav-link h5 {
+    font-size: 0.9rem;
   }
 }

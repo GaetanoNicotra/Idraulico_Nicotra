@@ -8,6 +8,7 @@ import BoxPage from './pages/BoxPage'
 import AutoclaviPage from './pages/AutoclaviPage'
 import ContatoriPage from './pages/ContatoriPage'
 import RistrutturazioniPage from './pages/RistrutturazioniPage'
+import ContattiPages from './pages/ContattiPages'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
             <Route path='/pagina-Autoclavi' element={<AutoclaviPage />} />
             <Route path='/pagina-Contatori' element={<ContatoriPage />} />
             <Route path='/pagina-Ristrutturazioni' element={<RistrutturazioniPage />} />
+            <Route path='/pagina-Contatti' element={<ContattiPages />} />
           </Route>
         </Routes>
       </BrowserRouter>

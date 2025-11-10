@@ -1,7 +1,12 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import { useEffect } from 'react';
 
 const ImpiantiPage = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
 
         <div className="container mt-5 mb-5 bg-section-home rounded">
@@ -11,10 +16,10 @@ const ImpiantiPage = () => {
 
                     {/* Link navigazione */}
 
-                    <ul className='d-flex list-unstyled gap-5 justify-content-center mt-4 mb-4 text-decoration-none'>
+                    <ul className='d-flex list-unstyled gap-5 justify-content-center mt-4 mb-4 text-decoration-none flex-wrap'>
                         <li> <NavLink className="nav-link" to='/pageImpianti' ><h5>Impianti</h5></NavLink></li>
                         <li> <NavLink className="nav-link" to='/pagina-Bagni'><h5>Bagni</h5></NavLink></li>
-                        <li> <NavLink className="nav-link" to='/pagina-Box-doccia'><h5>Box-Doccia</h5></NavLink></li>
+                        <li> <NavLink className="nav-link" to='/pagina-Box-doccia'><h5>Docce</h5></NavLink></li>
                         <li> <NavLink className="nav-link" to='/pagina-Autoclavi'><h5>Autoclavi</h5></NavLink></li>
                         <li> <NavLink className="nav-link" to='/pagina-Contatori'><h5>Contatori</h5></NavLink></li>
                         <li> <NavLink className="nav-link" to='/pagina-Ristrutturazioni'><h5>Ristrutturazioni</h5></NavLink></li>
@@ -35,15 +40,16 @@ const ImpiantiPage = () => {
                             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="10" aria-label="Slide 11"></button>
                             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="11" aria-label="Slide 12"></button>
                             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="12" aria-label="Slide 13"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="13" aria-label="Slide 14"></button>
                         </div>
                         <div className="carousel-inner ">
 
                             <div className="carousel-item active ">
-                                <img src="src/assets/imgs/imgs_impianti/img_impianti1.jpg" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania1" />
+                                <img src="src/assets/imgs/imgs_impianti/img_impianti6.jpg" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania6" />
                                 <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
-                                    <div className='carousel-description'>
-                                        <h5>Impianto a collettore</h5>
-                                        <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
+                                    <div className="carousel-description">
+                                        <h5>Collettore generale</h5>
+                                        <p>Collettore centralizzato con alimetazione a bypass per appartamento in ristrutturazione</p>
                                     </div>
                                 </div>
                             </div>
@@ -72,7 +78,7 @@ const ImpiantiPage = () => {
                                 <img src="src/assets/imgs/imgs_impianti/img_impianti5.jpg" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania5" />
                                 <div className="carousel-caption-outside mt-4 mb-4 d-md-block">
                                     <div className="carousel-description">
-                                        <h5>Impianto in un prefabricato in legno</h5>
+                                        <h5>Impianto in un prefabbricato in legno</h5>
                                         <p>Impianto di alimentazione in multistrato e scarichi in PVC</p>
                                     </div>
 
@@ -80,13 +86,12 @@ const ImpiantiPage = () => {
                             </div>
 
                             <div className="carousel-item">
-                                <img src="src/assets/imgs/imgs_impianti/img_impianti6.jpg" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania6" />
+                                <img src="src/assets/imgs/imgs_impianti/img_impianti1.jpg" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania1" />
                                 <div className="carousel-caption-outside mt-4 mb-4 d-md-block">
-                                    <div className="carousel-description">
-                                        <h5>Collettore generale</h5>
-                                        <p>Collettore centralizzato con alimetazione a byepass per un appartamneto da ristrutturare</p>
+                                    <div className='carousel-description'>
+                                        <h5>Impianto a collettore</h5>
+                                        <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
                                     </div>
-
                                 </div>
                             </div>
 
@@ -109,10 +114,21 @@ const ImpiantiPage = () => {
                                 <div className="carousel-caption-outside mt-4 mb-4 d-md-block">
                                     <div className='carousel-description'>
                                         <h5>Cassetta incasso</h5>
-                                        <p>Collocazione Combifix e staffe bidet</p>
+                                        <p>Collocazione Combifix e staffe Bidet</p>
                                     </div>
                                 </div>
                             </div>
+
+                            <div className="carousel-item">
+                                <img src="src/assets/imgs/imgs_impianti/impianti_giardino.webp" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania11" />
+                                <div className="carousel-caption-outside mt-4 mb-4 d-md-block">
+                                    <div className='carousel-description'>
+                                        <h5>Impianto di irrigazione</h5>
+                                        <p>Realizzazione di un impianto di irrigazione con la tecnica della sub-irrigazione</p>
+                                    </div>
+                                </div>
+                            </div>
+
 
                             <div className="carousel-item">
                                 <img src="src/assets/imgs/imgs_impianti/img_impianti11.jpg" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania11" />
@@ -129,7 +145,7 @@ const ImpiantiPage = () => {
                                 <div className="carousel-caption-outside mt-4 mb-4 d-md-block">
                                     <div className='carousel-description'>
                                         <h5>Impianto completo per Bagno</h5>
-                                        <p>Realizzazione impianto a collettore, scarichi in PVC e predisposizione staffe per sanitarii sospesi</p>
+                                        <p>Realizzazione impianto a collettore, scarichi in PVC e predisposizione staffe per sanitari sospesi</p>
                                     </div>
                                 </div>
                             </div>
@@ -153,7 +169,17 @@ const ImpiantiPage = () => {
                                     </div>
                                 </div>
                             </div>
+                            <div className="carousel-item">
+                                <img src="src/assets/imgs/imgs_impianti/impianto_addolcitore.jpg" id='addolcitore' className="d-block w-75 carousel-img rounded" alt="img-impianti-catania3" />
+                                <div className="carousel-caption-outside mt-4 mb-4 d-md-block">
+                                    <div className='carousel-description'>
+                                        <h5>Addolcitore idrico</h5>
+                                        <p>Impianto di riserva autonomo per un villino singolo con sistema di addolcimento per l'eliminazione del calcare</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+
 
                         {/* Bottoni */}
                         <button className="carousel-control-prev " type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">

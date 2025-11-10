@@ -49,9 +49,8 @@ const Footer = () => {
                                 <hr className="pb-4 w-75  m-auto" />
                                 <li>
                                     <a href="https://wa.me/393387725379?text=Salve,%20vorrei%20essere%20contattato" target="_blank" rel="noopener noreferrer"  >
-                                        <i className="fa-brands fa-whatsapp pe-4"></i>
+                                        <i className="fa-brands fa-whatsapp fs-3"></i>
                                     </a>
-                                    <i className="fa-brands fa-facebook-f"></i>
                                 </li>
                             </ul>
                         </div>
@@ -62,16 +61,17 @@ const Footer = () => {
                     <div className="row justify-content-around text-white text-center">
 
                         <div className="col-lg-4 col-md-5 col-sm-12 text-white-50">
-                            <h3 className='mb-4'>Idraulico Nicotra</h3>
+                            <img
+                                src="src\assets\imgs\img_home\img_logo_footer.png"
+                                alt="logo-footer"
+                                className="rounded w-50 mb-2"
+                                aria-label='immagine_logo_idraulico_nicotra'
+                            />
                             <p>Viale Mario Rapisardi, 523 Catania (CT)</p>
                         </div>
 
-                        <div className="col-lg-4 col-md-5 col-sm-12 text-white-50 ">
-                            <img
-                                src="src/assets/imgs/img_home/logo_footer.png"
-                                alt="logo-footer"
-                                className="rounded w-50 mb-3"
-                            />
+                        <div className="col-lg-4 col-md-5 col-sm-12 text-white-50 mt-4">
+                            <h3 className='mb-3'>Idraulico Nicotra</h3>
                             <h6>© 2025 Idraulico Nicotra – Tutti i diritti riservati</h6>
                         </div>
                     </div>

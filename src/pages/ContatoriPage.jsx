@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { NavLink } from 'react-router-dom'
 
 const ContatoriPage = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
 
         <>
@@ -12,10 +15,10 @@ const ContatoriPage = () => {
 
                         {/* Link navigazione */}
 
-                        <ul className='d-flex list-unstyled gap-5 justify-content-center mt-4 mb-4'>
+                        <ul className='d-flex list-unstyled gap-5 justify-content-center mt-4 mb-4 flex-wrap' >
                             <li> <NavLink className="nav-link" to='/pageImpianti' ><h5>Impianti</h5></NavLink></li>
                             <li> <NavLink className="nav-link" to='/pagina-Bagni'><h5>Bagni</h5></NavLink></li>
-                            <li> <NavLink className="nav-link" to='/pagina-Box-doccia'><h5>Box-Doccia</h5></NavLink></li>
+                            <li> <NavLink className="nav-link" to='/pagina-Box-doccia'><h5>Docce</h5></NavLink></li>
                             <li> <NavLink className="nav-link" to='/pagina-Autoclavi'><h5>Autoclavi</h5></NavLink></li>
                             <li> <NavLink className="nav-link" to='/pagina-Contatori'><h5>Contatori</h5></NavLink></li>
                             <li> <NavLink className="nav-link" to='/pagina-Ristrutturazioni'><h5>Ristrutturazioni</h5></NavLink></li>
@@ -26,57 +29,49 @@ const ContatoriPage = () => {
                                 <button type="button" data-bs-target="#carouselContatori" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#carouselContatori" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                 <button type="button" data-bs-target="#carouselContatori" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                <button type="button" data-bs-target="#carouselContatori" data-bs-slide-to="3" aria-label="Slide 4"></button>
                             </div>
 
                             <div className="carousel-inner">
 
                                 <div className="carousel-item active">
                                     <div className='d-flex justify-content-center'>
-                                        <img src="src\assets\imgs\img_contatori\img_idraulico_contatori1.jpg" className="d-block w-25 carousel-img rounded" alt="img-contatori-catania1" />
+                                        <img src="src\assets\imgs\img_contatori\img_idraulico_contatori3.jpg" className="d-block carousel-img rounded" alt="img-contatori-catania3" />
                                     </div>
                                     <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
                                         <div className='carousel-description'>
-                                            <h5>Impianto a collettore</h5>
-                                            <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
+                                            <h5>Contatori condominiali</h5>
+                                            <p>Batteria di contatori condominiale con gruppo di distirbuzione in ottone</p>
                                         </div>
                                     </div>
+
                                 </div>
-                                <div className="carousel-item">
+
+
+                                <div className="carousel-item ">
                                     <div className='d-flex justify-content-center'>
-                                        <img src="src\assets\imgs\img_contatori\img_idraulico_contatori2.jpg" className="d-block w-25 carousel-img rounded" alt="img-contatori-catania2" />
+                                        <img src="src\assets\imgs\img_contatori\img_idraulico_contatori1.jpg" className="d-block carousel-img rounded" alt="img-contatori-catania1" />
                                     </div>
                                     <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
                                         <div className='carousel-description'>
-                                            <h5>Impianto a collettore</h5>
-                                            <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
+                                            <h5>Riduttore di pressione</h5>
+                                            <p>Messa in opera riduttore di pressione su colonna di adduzione di un'abitazione</p>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div className="carousel-item">
                                     <div className='d-flex justify-content-center'>
-                                        <img src="src\assets\imgs\img_contatori\img_idraulico_contatori3.jpg" className="d-block w-25 carousel-img rounded" alt="img-contatori-catania3" />
+                                        <img src="src\assets\imgs\img_contatori\img_idraulico_contatori2.jpg" className="d-block carousel-img rounded" alt="img-contatori-catania2" />
                                     </div>
                                     <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
                                         <div className='carousel-description'>
-                                            <h5>Impianto a collettore</h5>
-                                            <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
+                                            <h5>Contatori</h5>
+                                            <p>Sportello completo per alloggio contatori</p>
                                         </div>
                                     </div>
+                                </div>
 
-                                </div>
-                                <div className="carousel-item">
-                                    <div className='d-flex justify-content-center'>
-                                        <img src="src\assets\imgs\img_contatori\img_idraulico_contatori4.jpg" className="d-block w-25 carousel-img rounded" alt="img-contatori-catania4" />
-                                    </div>
-                                    <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
-                                        <div className='carousel-description'>
-                                            <h5>Impianto a collettore</h5>
-                                            <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
-                                        </div>
-                                    </div>
-                                </div>
+
                             </div>
 
                             {/* Bottoni */}

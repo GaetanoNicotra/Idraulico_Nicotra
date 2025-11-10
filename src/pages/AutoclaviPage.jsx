@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { NavLink } from 'react-router-dom'
 
 const AutoclaviPage = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
 
         <>
@@ -10,10 +15,10 @@ const AutoclaviPage = () => {
                     <div className="col-lg-12 mx-auto">
 
                         {/* Link navigazione */}
-                        <ul className='d-flex list-unstyled gap-5 mt-4 mb-4 justify-content-center'>
+                        <ul className='d-flex list-unstyled gap-5 mt-4 mb-4 justify-content-center flex-wrap'>
                             <li> <NavLink className="nav-link" to='/pageimpianti' ><h5>Impianti</h5></NavLink></li>
                             <li> <NavLink className="nav-link" to='/pagina-Bagni'><h5>Bagni</h5></NavLink></li>
-                            <li> <NavLink className="nav-link" to='/pagina-Box-doccia'><h5>Box-Doccia</h5></NavLink></li>
+                            <li> <NavLink className="nav-link" to='/pagina-Box-doccia'><h5>Docce</h5></NavLink></li>
                             <li> <NavLink className="nav-link" to='/pagina-Autoclavi'><h5>Autoclavi</h5></NavLink></li>
                             <li> <NavLink className="nav-link" to='/pagina-Contatori'><h5>Contatori</h5></NavLink></li>
                             <li> <NavLink className="nav-link" to='/pagina-Ristrutturazioni'><h5>Ristrutturazioni</h5></NavLink></li>
@@ -29,174 +34,104 @@ const AutoclaviPage = () => {
                                 <button type="button" data-bs-target="#carouselAutoclave" data-bs-slide-to="5" aria-label="Slide 6"></button>
                                 <button type="button" data-bs-target="#carouselAutoclave" data-bs-slide-to="6" aria-label="Slide 7"></button>
                                 <button type="button" data-bs-target="#carouselAutoclave" data-bs-slide-to="7" aria-label="Slide 8"></button>
-                                <button type="button" data-bs-target="#carouselAutoclave" data-bs-slide-to="8" aria-label="Slide 9"></button>
-                                <button type="button" data-bs-target="#carouselAutoclave" data-bs-slide-to="9" aria-label="Slide 11"></button>
-                                <button type="button" data-bs-target="#carouselAutoclave" data-bs-slide-to="10" aria-label="Slide 11"></button>
-                                <button type="button" data-bs-target="#carouselAutoclave" data-bs-slide-to="11" aria-label="Slide 12"></button>
-                                <button type="button" data-bs-target="#carouselAutoclave" data-bs-slide-to="12" aria-label="Slide 13"></button>
-                                <button type="button" data-bs-target="#carouselAutoclave" data-bs-slide-to="13" aria-label="Slide 14"></button>
-
                             </div>
                             <div className="carousel-inner">
 
                                 <div className="carousel-item active">
                                     <div className='d-flex justify-content-center'>
-                                        <img src="src\assets\imgs\imgs_autoclavi\img_idraulica_autoclave1.jpg" className="d-block w-50 carousel-img rounded" alt="img-impianti-catania1" />
+                                        <img src="src\assets\imgs\imgs_autoclavi\img_idraulica_autoclave11.jpg" className="d-block carousel-img rounded" alt="img-impianti-catania1" />
                                     </div>
                                     <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
                                         <div className='carousel-description'>
-                                            <h5>Impianto a collettore</h5>
-                                            <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="carousel-item">
-                                    <div className='d-flex justify-content-center'>
-                                        <img src="src\assets\imgs\imgs_autoclavi\img_idraulica_autoclave2.jpg" className="d-block w-50 carousel-img rounded" alt="img-impianti-catania2" />
-                                    </div>
-                                    <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
-                                        <div className='carousel-description'>
-                                            <h5>Impianto a collettore</h5>
-                                            <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="carousel-item">
-                                    <div className='d-flex justify-content-center'>
-                                        <img src="src\assets\imgs\imgs_autoclavi\img_idraulica_autoclave3.jpg" className="d-block w-50 carousel-img rounded" alt="img-impianti-catania3" />
-                                    </div>
-                                    <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
-                                        <div className='carousel-description'>
-                                            <h5>Impianto a collettore</h5>
-                                            <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="carousel-item">
-                                    <div className='d-flex justify-content-center'>
-                                        <img src="src\assets\imgs\imgs_autoclavi\img_idraulica_autoclave4.jpg" className="d-block w-50 carousel-img rounded" alt="img-impianti-catania4" />
-                                    </div>
-                                    <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
-                                        <div className='carousel-description'>
-                                            <h5>Impianto a collettore</h5>
-                                            <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
+                                            <h5>Gruppo pompe per un'autoclave</h5>
+                                            <p>Pompe gemellate Calpeda per alimentazione multipla</p>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div className="carousel-item">
                                     <div className='d-flex justify-content-center'>
-                                        <img src="src\assets\imgs\imgs_autoclavi\img_idraulica_autoclave5.jpg" className="d-block w-50 carousel-img rounded" alt="img-impianti-catania5" />
+                                        <img src="src\assets\imgs\imgs_autoclavi\img_idraulica_autoclave2.jpg" className="d-block carousel-img rounded" alt="img-impianti-catania2" />
                                     </div>
                                     <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
                                         <div className='carousel-description'>
-                                            <h5>Impianto a collettore</h5>
-                                            <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
+                                            <h5>Gruppo pompe per autoclave</h5>
+                                            <p>Pompe gemellate Pedrollo per un'autoclave condominiale</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div className="carousel-item">
+                                    <div className='d-flex justify-content-center'>
+                                        <img src="src\assets\imgs\imgs_autoclavi\img_idraulica_autoclave4.jpg" className="d-block carousel-img rounded" alt="img-impianti-catania4" />
+                                    </div>
+                                    <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
+                                        <div className='carousel-description'>
+                                            <h5>Ammodernamento parziale autoclave</h5>
+                                            <p>Sostituzione elettropompa gemellata e vaso d'espansione</p>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div className="carousel-item">
                                     <div className='d-flex justify-content-center'>
-                                        <img src="src\assets\imgs\imgs_autoclavi\img_idraulica_autoclave6.jpg" className="d-block w-50 carousel-img rounded" alt="img-impianti-catania6" />
+                                        <img src="src\assets\imgs\imgs_autoclavi\img_idraulica_autoclave5.jpg" className="d-block carousel-img rounded" alt="img-impianti-catania5" />
                                     </div>
                                     <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
                                         <div className='carousel-description'>
-                                            <h5>Impianto a collettore</h5>
-                                            <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
+                                            <h5>Mini autoclave monofamiliare</h5>
+                                            <p>Impianto di sollevamento con pompa Pedrollo e vaso d'espansione</p>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div className="carousel-item">
                                     <div className='d-flex justify-content-center'>
-                                        <img src="src\assets\imgs\imgs_autoclavi\img_idraulica_autoclave7.jpg" className="d-block w-50 carousel-img rounded" alt="img-impianti-catania7" />
+                                        <img src="src\assets\imgs\imgs_autoclavi\img_idraulica_autoclave6.jpg" className="d-block carousel-img rounded" alt="img-impianti-catania6" />
                                     </div>
                                     <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
                                         <div className='carousel-description'>
-                                            <h5>Impianto a collettore</h5>
-                                            <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
+                                            <h5>Quadro elettrico per elettropompa</h5>
+                                            <p>Control System elettronico per l'alimentazione e la protezione di una pompa trifase</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div className="carousel-item">
+                                    <div className='d-flex justify-content-center'>
+                                        <img src="src\assets\imgs\imgs_autoclavi\img_idraulica_autoclave8.jpg" className="d-block carousel-img rounded" alt="img-impianti-catania8" />
+                                    </div>
+                                    <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
+                                        <div className='carousel-description'>
+                                            <h5>Impianto di riserva</h5>
+                                            <p>Mini autoclave con riserva idrica per appartamento</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div className="carousel-item">
+                                    <div className='d-flex justify-content-center'>
+                                        <img src="src\assets\imgs\imgs_autoclavi\img_idraulica_autoclave12.jpg" className="d-block carousel-img rounded" alt="img-impianti-catania12" />
+                                    </div>
+                                    <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
+                                        <div className='carousel-description'>
+                                            <h5>Impianto di riserva</h5>
+                                            <p>Autoclave munito di bypass con maggiore riserva idrica per alimentazione di un appartamento al sesto piano</p>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div className="carousel-item">
                                     <div className='d-flex justify-content-center'>
-                                        <img src="src\assets\imgs\imgs_autoclavi\img_idraulica_autoclave8.jpg" className="d-block w-50 carousel-img rounded" alt="img-impianti-catania8" />
+                                        <img src="src\assets\imgs\imgs_autoclavi\img_idraulica_autoclave14.jpg" className="d-block carousel-img rounded" alt="img-impianti-catania14" />
                                     </div>
                                     <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
                                         <div className='carousel-description'>
-                                            <h5>Impianto a collettore</h5>
-                                            <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="carousel-item">
-                                    <div className='d-flex justify-content-center'>
-                                        <img src="src\assets\imgs\imgs_autoclavi\img_idraulica_autoclave9.jpg" className="d-block w-50 carousel-img rounded" alt="img-impianti-catania9" />
-                                    </div>
-                                    <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
-                                        <div className='carousel-description'>
-                                            <h5>Impianto a collettore</h5>
-                                            <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="carousel-item">
-                                    <div className='d-flex justify-content-center'>
-                                        <img src="src\assets\imgs\imgs_autoclavi\img_idraulica_autoclave10.jpg" className="d-block w-50 carousel-img rounded" alt="img-impianti-catania10" />
-                                    </div>
-                                    <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
-
-                                    </div>
-                                </div>
-
-                                <div className="carousel-item">
-                                    <div className='d-flex justify-content-center'>
-                                        <img src="src\assets\imgs\imgs_autoclavi\img_idraulica_autoclave11.jpg" className="d-block w-50 carousel-img rounded" alt="img-impianti-catania11" />
-                                    </div>
-                                    <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
-                                        <div className='carousel-description'>
-                                            <h5>Impianto a collettore</h5>
-                                            <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="carousel-item">
-                                    <div className='d-flex justify-content-center'>
-                                        <img src="src\assets\imgs\imgs_autoclavi\img_idraulica_autoclave12.jpg" className="d-block w-50 carousel-img rounded" alt="img-impianti-catania12" />
-                                    </div>
-                                    <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
-                                        <div className='carousel-description'>
-                                            <h5>Impianto a collettore</h5>
-                                            <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="carousel-item">
-                                    <div className='d-flex justify-content-center'>
-                                        <img src="src\assets\imgs\imgs_autoclavi\img_idraulica_autoclave13.jpg" className="d-block w-50 carousel-img rounded" alt="img-impianti-catania13" />
-                                    </div>
-                                    <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
-                                        <div className='carousel-description'>
-                                            <h5>Impianto a collettore</h5>
-                                            <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="carousel-item">
-                                    <div className='d-flex justify-content-center'>
-                                        <img src="src\assets\imgs\imgs_autoclavi\img_idraulica_autoclave14.jpg" className="d-block w-50 carousel-img rounded" alt="img-impianti-catania14" />
-                                    </div>
-                                    <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
-                                        <div className='carousel-description'>
-                                            <h5>Impianto a collettore</h5>
-                                            <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
+                                            <h5>Autoclave</h5>
+                                            <p>Autoclave munito di vaso d'espansione con garanzia 5 anni</p>
                                         </div>
                                     </div>
                                 </div>

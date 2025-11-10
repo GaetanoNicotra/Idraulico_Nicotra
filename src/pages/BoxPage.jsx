@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { NavLink } from 'react-router-dom'
 
 const BoxPage = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <>
             <div className="container mt-5 mb-5 bg-section-home rounded">
@@ -11,10 +14,10 @@ const BoxPage = () => {
 
                         {/* Link navigazione */}
 
-                        <ul className='d-flex list-unstyled gap-5 justify-content-center mt-4 mb-4 text-decoration-none'>
+                        <ul className='d-flex list-unstyled gap-5 justify-content-center mt-4 mb-4 text-decoration-none flex-wrap'>
                             <li> <NavLink className="nav-link" to='/pageImpianti' ><h5>Impianti</h5></NavLink></li>
                             <li> <NavLink className="nav-link" to='/pagina-Bagni'><h5>Bagni</h5></NavLink></li>
-                            <li> <NavLink className="nav-link" to='/pagina-Box-doccia'><h5>Box-Doccia</h5></NavLink></li>
+                            <li> <NavLink className="nav-link" to='/pagina-Box-doccia'><h5>Docce</h5></NavLink></li>
                             <li> <NavLink className="nav-link" to='/pagina-Autoclavi'><h5>Autoclavi</h5></NavLink></li>
                             <li> <NavLink className="nav-link" to='/pagina-Contatori'><h5>Contatori</h5></NavLink></li>
                             <li> <NavLink className="nav-link" to='/pagina-Ristrutturazioni'><h5>Ristrutturazioni</h5></NavLink></li>
@@ -25,39 +28,54 @@ const BoxPage = () => {
                                 <button type="button" data-bs-target="#carouselBox" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#carouselBox" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                 <button type="button" data-bs-target="#carouselBox" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselBox" data-bs-slide-to="3" aria-label="Slide 4"></button>
                             </div>
                             <div className="carousel-inner">
 
                                 <div className="carousel-item active">
                                     <div className='d-flex justify-content-center'>
-                                        <img src="src\assets\imgs\imgs_Box-doccia\img_idraulico_boxdoccia1.jpg" className="d-block w-25 carousel-img rounded" alt="img-boxdoccia-catania1" />
+                                        <img src="src\assets\imgs\imgs_Box-doccia\img_idraulico_boxdoccia1.jpg" className="d-block carousel-img rounded" alt="img-boxdoccia-catania1" />
                                     </div>
                                     <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
                                         <div className='carousel-description'>
-                                            <h5>Impianto a collettore</h5>
-                                            <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
+                                            <h5>Box Doccia angolare</h5>
+                                            <p>Box Doccia angolare con porta scorrevole a frizione</p>
                                         </div>
                                     </div>
                                 </div>
+
                                 <div className="carousel-item">
                                     <div className='d-flex justify-content-center'>
-                                        <img src="src\assets\imgs\imgs_Box-doccia\img_idraulico_boxdoccia2.jpg" className="d-block w-25 carousel-img rounded" alt="img-boxdoccia-catania2" />
+                                        <img src="src\assets\imgs\imgs_Box-doccia\img_idraulico_boxdoccia2.jpg" className="d-block carousel-img rounded" alt="img-boxdoccia-catania2" />
                                     </div>
                                     <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
                                         <div className='carousel-description'>
-                                            <h5>Impianto a collettore</h5>
-                                            <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
+                                            <h5>Doccia angolare</h5>
+                                            <p>Doccia con piatto realizzato in muratura e box doccia angolare (70 cm x 90 cm)</p>
                                         </div>
                                     </div>
                                 </div>
+
                                 <div className="carousel-item">
                                     <div className='d-flex justify-content-center'>
-                                        <img src="src\assets\imgs\imgs_Box-doccia\img_idraulico_boxdoccia3.jpg" className="d-block w-25 carousel-img rounded" alt="img-boxdoccia-catania3" />
+                                        <img src="src\assets\imgs\imgs_Box-doccia\img_idraulico_boxdoccia3.jpg" className="d-block carousel-img rounded" alt="img-boxdoccia-catania3" />
                                     </div>
                                     <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
                                         <div className='carousel-description'>
-                                            <h5>Impianto a collettore</h5>
-                                            <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
+                                            <h5>Doccia moderna</h5>
+                                            <p>Doccia angolare con piatto in marmo resina e lato fisso in cristallo con profilo nero</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="carousel-item">
+                                    <div className='d-flex justify-content-center'>
+                                        <img src="src\assets\imgs\imgs_Box-doccia\img_idraulico_boxdoccia4.webp" className="d-block carousel-img rounded" alt="img-boxdoccia-catania3" />
+                                    </div>
+                                    <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
+                                        <div className='carousel-description'>
+                                            <h5>Doccia a nicchia</h5>
+                                            <p>Realizzazione doccia con piatto in marmoresina e porta pivotante</p>
                                         </div>
                                     </div>
                                 </div>

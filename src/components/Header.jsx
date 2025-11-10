@@ -4,7 +4,7 @@ import { HashLink } from 'react-router-hash-link'
 
 const Header = () => {
     return (
-        <nav className="navbar navbar-expand-lg mt-3">
+        <nav className="navbar navbar-expand-lg py-3">
             <div className="container-fluid d-flex align-items-center justify-content-between me-4 ms-4">
 
                 {/* Logo header */}
@@ -13,7 +13,7 @@ const Header = () => {
 
                 {/* Hamburger menù */}
                 <button
-                    className="navbar-toggler rounded bg-body-secondary border-0 p-2 shadow-sm"
+                    className="navbar-toggler rounded bg-body-secondary border-0 p-2 mb-2 shadow-sm"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#navbarNav"
@@ -31,15 +31,10 @@ const Header = () => {
                             <Link to='/' className='nav-link text-black'>Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/' className='nav-link text-black'>Contatti</Link>
+                            <Link to='/pagina-Contatti' className='nav-link text-black'>Contatti</Link>
                         </li>
                         <li className="nav-item">
-                            <HashLink smooth to="/#services" className="nav-link text-black">
-                                Servizi
-                            </HashLink>
-                        </li>
-                        <li className="nav-item">
-                            <HashLink smooth to="/pagina-Bagni#gallery" className='nav-link text-black'>Gallery</HashLink>
+                            <HashLink smooth to="/pagina-Bagni#gallery" className='nav-link text-black'>I nostri lavori</HashLink>
                         </li>
                     </ul>
 

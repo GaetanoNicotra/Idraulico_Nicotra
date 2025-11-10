@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { NavLink } from 'react-router-dom'
 
 const BagniPage = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
 
         <div className="container mt-5 mb-5 bg-section-home rounded" id='gallery'>
@@ -11,16 +16,16 @@ const BagniPage = () => {
 
                     {/* Link navigazione */}
 
-                    <ul className='d-flex list-unstyled gap-5 justify-content-center mt-4 mb-4'>
+                    <ul className='d-flex list-unstyled gap-5 justify-content-center mt-4 mb-4 flex-wrap'>
                         <li> <NavLink className="nav-link" to='/pageImpianti' ><h5>Impianti</h5></NavLink></li>
                         <li> <NavLink className="nav-link" to='/pagina-Bagni'><h5>Bagni</h5></NavLink></li>
-                        <li> <NavLink className="nav-link" to='/pagina-Box-doccia'><h5>Box-Doccia</h5></NavLink></li>
+                        <li> <NavLink className="nav-link" to='/pagina-Box-doccia'><h5>Docce</h5></NavLink></li>
                         <li> <NavLink className="nav-link" to='/pagina-Autoclavi'><h5>Autoclavi</h5></NavLink></li>
                         <li> <NavLink className="nav-link" to='/pagina-Contatori'><h5>Contatori</h5></NavLink></li>
                         <li> <NavLink className="nav-link" to='/pagina-Ristrutturazioni'><h5>Ristrutturazioni</h5></NavLink></li>
                     </ul>
 
-                    <div id="carouselImpianti" className="carousel slide mb-5">
+                    <div id="carouselImpianti" className="carousel slide mb-5" >
                         <div className="carousel-indicators bg-secondary-subtle rounded position-relative">
                             <button type="button" data-bs-target="#carouselImpianti" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                             <button type="button" data-bs-target="#carouselImpianti" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -32,213 +37,125 @@ const BagniPage = () => {
                             <button type="button" data-bs-target="#carouselImpianti" data-bs-slide-to="7" aria-label="Slide 8"></button>
                             <button type="button" data-bs-target="#carouselImpianti" data-bs-slide-to="8" aria-label="Slide 9"></button>
                             <button type="button" data-bs-target="#carouselImpianti" data-bs-slide-to="9" aria-label="Slide 10"></button>
-                            <button type="button" data-bs-target="#carouselImpianti" data-bs-slide-to="10" aria-label="Slide 11"></button>
-                            <button type="button" data-bs-target="#carouselImpianti" data-bs-slide-to="11" aria-label="Slide 12"></button>
-                            <button type="button" data-bs-target="#carouselImpianti" data-bs-slide-to="12" aria-label="Slide 13"></button>
-                            <button type="button" data-bs-target="#carouselImpianti" data-bs-slide-to="13" aria-label="Slide 14"></button>
-                            <button type="button" data-bs-target="#carouselImpianti" data-bs-slide-to="14" aria-label="Slide 15"></button>
-                            <button type="button" data-bs-target="#carouselImpianti" data-bs-slide-to="15" aria-label="Slide 16"></button>
-                            <button type="button" data-bs-target="#carouselImpianti" data-bs-slide-to="16" aria-label="Slide 17"></button>
-                            <button type="button" data-bs-target="#carouselImpianti" data-bs-slide-to="17" aria-label="Slide 18"></button>
-
                         </div>
-                        <div className="carousel-inner">
+                        <div className="carousel-inner" id="bagni">
 
                             <div className="carousel-item active">
                                 <div className='d-flex justify-content-center'>
-                                    <img src="src\assets\imgs\imgs_bagni\img_idraulico_bagni1.jpg" className="d-block w-50 carousel-img rounded" alt="img-bagni-catania1" />
+                                    <img src="src\assets\imgs\imgs_bagni\img_idraulico_bagni7.jpeg" className="d-block carousel-img rounded" alt="img-bagni-catania1" />
                                 </div>
                                 <div className="carousel-caption-ouside mt-4 mb-4 d-md-block ">
                                     <div className='carousel-description'>
-                                        <h5>Impianto a collettore</h5>
-                                        <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
+                                        <h5>Bagno ristrutturato</h5>
+                                        <p>Realizzazione bagno per clienti senior</p>
                                     </div>
                                 </div>
                             </div>
+
                             <div className="carousel-item">
                                 <div className='d-flex justify-content-center'>
-                                    <img src="src\assets\imgs\imgs_bagni\img_idraulico_bagni2.jpg" className="d-block w-50 carousel-img rounded" alt="img-bagni-catania2" />
+                                    <img src="src\assets\imgs\imgs_bagni\img_idraulico_bagni2.jpg" className="d-block carousel-img rounded" alt="img-bagni-catania2" />
                                 </div>
                                 <div className="carousel-caption-ouside mt-4 mb-4 d-md-block ">
                                     <div className='carousel-description'>
-                                        <h5>Impianto a collettore</h5>
-                                        <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
+                                        <h5>Mobile bagno</h5>
+                                        <p>Composizione mobile sospeso stilizzato e specchiera a Led</p>
                                     </div>
                                 </div>
                             </div>
+
                             <div className="carousel-item">
                                 <div className='d-flex justify-content-center'>
-                                    <img src="src\assets\imgs\imgs_bagni\img_idraulico_bagni3.jpg" className="d-block w-50 carousel-img rounded" alt="img-bagni-catania3" />
+                                    <img src="src\assets\imgs\imgs_bagni\img_idraulico_bagni3.jpg" className="d-block carousel-img rounded" alt="img-bagni-catania3" />
                                 </div>
                                 <div className="carousel-caption-ouside mt-4 mb-4 d-md-block ">
                                     <div className='carousel-description'>
-                                        <h5>Impianto a collettore</h5>
-                                        <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
+                                        <h5>Sanitari filomuro</h5>
+                                        <p>Realizzazione muretto per incorporare cassetta ad incasso</p>
                                     </div>
                                 </div>
                             </div>
+
                             <div className="carousel-item">
                                 <div className='d-flex justify-content-center'>
-                                    <img src="src\assets\imgs\imgs_bagni\img_idraulico_bagni4.jpg" className="d-block w-50 carousel-img rounded" alt="img-bagni-catania4" />
+                                    <img src="src\assets\imgs\imgs_bagni\img_idraulico_bagni5.jpg" className="d-block carousel-img rounded" alt="img-bagni-catania5" />
                                 </div>
                                 <div className="carousel-caption-ouside mt-4 mb-4 d-md-block ">
                                     <div className='carousel-description'>
-                                        <h5>Impianto a collettore</h5>
-                                        <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
+                                        <h5>Lavabo doppio</h5>
+                                        <p>Lavabo doppio realizzato con materiali innovativi in un bagno moderno</p>
                                     </div>
                                 </div>
                             </div>
+
                             <div className="carousel-item">
                                 <div className='d-flex justify-content-center'>
-                                    <img src="src\assets\imgs\imgs_bagni\img_idraulico_bagni5.jpg" className="d-block w-50 carousel-img rounded" alt="img-bagni-catania5" />
+                                    <img src="src\assets\imgs\imgs_bagni\img_idraulico_bagni8.jpeg" className="d-block carousel-img rounded" alt="img-bagni-catania8" />
                                 </div>
                                 <div className="carousel-caption-ouside mt-4 mb-4 d-md-block ">
                                     <div className='carousel-description'>
-                                        <h5>Impianto a collettore</h5>
-                                        <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
+                                        <h5>Trasformazione lavanderia in bagno</h5>
+                                        <p>Creazione di un bagno completo da ex lavanderia con creazione gradino </p>
                                     </div>
                                 </div>
                             </div>
+
                             <div className="carousel-item">
                                 <div className='d-flex justify-content-center'>
-                                    <img src="src\assets\imgs\imgs_bagni\img_idraulico_bagni6.jpg" className="d-block w-50 carousel-img rounded" alt="img-bagni-catania6" />
+                                    <img src="src\assets\imgs\imgs_bagni\img_idraulico_bagni11.jpeg" className="d-block carousel-img rounded" alt="img-bagni-catania11" />
                                 </div>
                                 <div className="carousel-caption-ouside mt-4 mb-4 d-md-block ">
                                     <div className='carousel-description'>
-                                        <h5>Impianto a collettore</h5>
-                                        <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
+                                        <h5>Servizio per ufficio</h5>
+                                        <p>Posa WC e lavabo a seguito di ristrutturazione in un ufficio</p>
                                     </div>
                                 </div>
                             </div>
+
                             <div className="carousel-item">
                                 <div className='d-flex justify-content-center'>
-                                    <img src="src\assets\imgs\imgs_bagni\img_idraulico_bagni7.jpg" className="d-block w-50 carousel-img rounded" alt="img-bagni-catania7" />
+                                    <img src="src\assets\imgs\imgs_bagni\img_idraulico_bagni12.jpg" className="d-block carousel-img rounded" alt="img-bagni-catania12" />
                                 </div>
                                 <div className="carousel-caption-ouside mt-4 mb-4 d-md-block ">
                                     <div className='carousel-description'>
-                                        <h5>Impianto a collettore</h5>
-                                        <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
+                                        <h5>Lavabo con specchiera a Led</h5>
+                                        <p>Trasformazione vecchio lavabo tradizionale con composizione moderna</p>
                                     </div>
                                 </div>
                             </div>
+
                             <div className="carousel-item">
                                 <div className='d-flex justify-content-center'>
-                                    <img src="src\assets\imgs\imgs_bagni\img_idraulico_bagni8.jpg" className="d-block w-50 carousel-img rounded" alt="img-bagni-catania8" />
+                                    <img src="src\assets\imgs\imgs_bagni\img_idraulico_bagni13.jpg" className="d-block carousel-img rounded" id='img-house-wood' alt="img-bagni-catania13" />
                                 </div>
                                 <div className="carousel-caption-ouside mt-4 mb-4 d-md-block ">
                                     <div className='carousel-description'>
-                                        <h5>Impianto a collettore</h5>
-                                        <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
+                                        <h5>Bagno per disabili</h5>
+                                        <p>Realizzazione bagno per disabili in una casetta in legno</p>
                                     </div>
                                 </div>
                             </div>
+
                             <div className="carousel-item">
                                 <div className='d-flex justify-content-center'>
-                                    <img src="src\assets\imgs\imgs_bagni\img_idraulico_bagni9.jpg" className="d-block w-50 carousel-img rounded" alt="img-bagni-catania9" />
+                                    <img src="src\assets\imgs\imgs_bagni\img_idraulico_bagni17.jpg" className="d-block carousel-img rounded" alt="img-bagni-catania17" />
                                 </div>
                                 <div className="carousel-caption-ouside mt-4 mb-4 d-md-block ">
                                     <div className='carousel-description'>
-                                        <h5>Impianto a collettore</h5>
-                                        <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
+                                        <h5>Lavanderia moderna</h5>
+                                        <p>Creazione lavanderia con mobile moderno</p>
                                     </div>
                                 </div>
                             </div>
+
                             <div className="carousel-item">
                                 <div className='d-flex justify-content-center'>
-                                    <img src="src\assets\imgs\imgs_bagni\img_idraulico_bagni10.jpg" className="d-block w-50 carousel-img rounded" alt="img-bagni-catania10" />
+                                    <img src="src\assets\imgs\imgs_bagni\img_idraulico_bagni14.jpg" className="d-block carousel-img rounded" alt="img-bagni-catania18" />
                                 </div>
                                 <div className="carousel-caption-ouside mt-4 mb-4 d-md-block ">
                                     <div className='carousel-description'>
-                                        <h5>Impianto a collettore</h5>
-                                        <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="carousel-item">
-                                <div className='d-flex justify-content-center'>
-                                    <img src="src\assets\imgs\imgs_bagni\img_idraulico_bagni11.jpeg" className="d-block w-50 carousel-img rounded" alt="img-bagni-catania11" />
-                                </div>
-                                <div className="carousel-caption-ouside mt-4 mb-4 d-md-block ">
-                                    <div className='carousel-description'>
-                                        <h5>Impianto a collettore</h5>
-                                        <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="carousel-item">
-                                <div className='d-flex justify-content-center'>
-                                    <img src="src\assets\imgs\imgs_bagni\img_idraulico_bagni12.jpeg" className="d-block w-50 carousel-img rounded" alt="img-bagni-catania12" />
-                                </div>
-                                <div className="carousel-caption-ouside mt-4 mb-4 d-md-block ">
-                                    <div className='carousel-description'>
-                                        <h5>Impianto a collettore</h5>
-                                        <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="carousel-item">
-                                <div className='d-flex justify-content-center'>
-                                    <img src="src\assets\imgs\imgs_bagni\img_idraulico_bagni13.jpeg" className="d-block w-50 carousel-img rounded" alt="img-bagni-catania13" />
-                                </div>
-                                <div className="carousel-caption-ouside mt-4 mb-4 d-md-block ">
-                                    <div className='carousel-description'>
-                                        <h5>Impianto a collettore</h5>
-                                        <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="carousel-item">
-                                <div className='d-flex justify-content-center'>
-                                    <img src="src\assets\imgs\imgs_bagni\img_idraulico_bagni14.jpeg" className="d-block w-50 carousel-img rounded" alt="img-bagni-catania14" />
-                                </div>
-                                <div className="carousel-caption-ouside mt-4 mb-4 d-md-block ">
-                                    <div className='carousel-description'>
-                                        <h5>Impianto a collettore</h5>
-                                        <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="carousel-item">
-                                <div className='d-flex justify-content-center'>
-                                    <img src="src\assets\imgs\imgs_bagni\img_idraulico_bagni15.jpg" className="d-block w-50 carousel-img rounded" alt="img-bagni-catania15" />
-                                </div>
-                                <div className="carousel-caption-ouside mt-4 mb-4 d-md-block ">
-                                    <div className='carousel-description'>
-                                        <h5>Impianto a collettore</h5>
-                                        <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="carousel-item">
-                                <div className='d-flex justify-content-center'>
-                                    <img src="src\assets\imgs\imgs_bagni\img_idraulico_bagni16.jpeg" className="d-block w-50 carousel-img rounded" alt="img-bagni-catania16" />
-                                </div>
-                                <div className="carousel-caption-ouside mt-4 mb-4 d-md-block ">
-                                    <div className='carousel-description'>
-                                        <h5>Impianto a collettore</h5>
-                                        <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="carousel-item">
-                                <div className='d-flex justify-content-center'>
-                                    <img src="src\assets\imgs\imgs_bagni\img_idraulico_bagni17.jpg" className="d-block w-50 carousel-img rounded" alt="img-bagni-catania17" />
-                                </div>
-                                <div className="carousel-caption-ouside mt-4 mb-4 d-md-block ">
-                                    <div className='carousel-description'>
-                                        <h5>Impianto a collettore</h5>
-                                        <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="carousel-item">
-                                <div className='d-flex justify-content-center'>
-                                    <img src="src\assets\imgs\imgs_bagni\img_idraulico_bagni18.jpg" className="d-block w-50 carousel-img rounded" alt="img-bagni-catania18" />
-                                </div>
-                                <div className="carousel-caption-ouside mt-4 mb-4 d-md-block ">
-                                    <div className='carousel-description'>
-                                        <h5>Impianto a collettore</h5>
-                                        <p>Realizazione impianto a collettore di un bagno in appartamento da ristrutturare</p>
+                                        <h5>Sanitari vintage</h5>
+                                        <p>Ammodernamento bagno con sostituzione sanitari Cesame Serie 2000</p>
                                     </div>
                                 </div>
                             </div>
