@@ -9,6 +9,7 @@ import AutoclaviPage from './pages/AutoclaviPage'
 import ContatoriPage from './pages/ContatoriPage'
 import RistrutturazioniPage from './pages/RistrutturazioniPage'
 import ContattiPages from './pages/ContattiPages'
+import NotFoundPage from './pages/NotFoundPage'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
             <Route path='/pagina-Contatori' element={<ContatoriPage />} />
             <Route path='/pagina-Ristrutturazioni' element={<RistrutturazioniPage />} />
             <Route path='/pagina-Contatti' element={<ContattiPages />} />
+            <Route path='*' element={<NotFoundPage />} />
           </Route>
         </Routes>
       </BrowserRouter>
