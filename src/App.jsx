@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Homepage from './pages/Homepage'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import DefaultLayouts from './layouts/DefaultLayouts'

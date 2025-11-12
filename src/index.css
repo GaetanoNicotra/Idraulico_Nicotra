@@ -59,6 +59,7 @@ nav {
   width: 100%;
   height: 300px;
   border-radius: 15px;
+
 }
 
 .border-custom {
@@ -69,6 +70,11 @@ nav {
 #border-custom {
   width: 185px;
   border-bottom: 3px solid #FD0100;
+}
+
+.border-custom-contatti {
+  border-bottom: 3px solid #FD0100;
+  max-width: 80%;
 }
 
 /* SEZIONE SERVIZI  */
@@ -259,12 +265,21 @@ i {
   .jumbotron {
     padding-bottom: 30px;
   }
+
+  .border-custom-contatti {
+    border-bottom: 3px solid #FD0100;
+    max-width: 40%;
+  }
 }
 
 /* Da 768px a 1198px */
 @media screen and (min-width:768px) and (max-width:1198px) {
   .text-overlay {
     left: 20px;
+  }
+
+  #button-whatsapp {
+    display: none;
   }
 }
 
@@ -287,12 +302,25 @@ i {
   #addolcitore {
     width: 40% !important;
   }
+
+  #button-whatsapp {
+    display: none;
+  }
+
+  .border-custom-contatti {
+    border-bottom: 3px solid #FD0100;
+    max-width: 40%;
+  }
 }
 
 /* 1199px in su */
 @media screen and (min-width:1199px) {
   .text-overlay {
     left: 80px;
+  }
+
+  #button-whatsapp {
+    display: none;
   }
 
 }

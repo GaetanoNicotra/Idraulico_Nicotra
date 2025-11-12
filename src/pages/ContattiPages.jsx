@@ -10,8 +10,8 @@ const ContattiPages = () => {
                     className="img_contatti"
                 />
 
-                <div className="overlay-title col-12">
-                    <h1>I nostri contatti</h1>
+                <div className="overlay-title col-10">
+                    <h1 className='border-custom-contatti mx-auto pb-3'>I nostri contatti</h1>
                 </div>
             </div>
 
@@ -30,8 +30,9 @@ const ContattiPages = () => {
                         {/* Social */}
                         <div className="col-12 d-flex justify-content-center text-center gap-5">
                             <ul className="list-unstyled">
-                                <li className="pb-2 pt-3">
+                                <li className="pb-2 pt-2">
                                     <h4>WhatsApp</h4>
+                                    <p>Inviaci un messaggio su WhatsApp, ti risponderemo il prima possibile</p>
                                 </li>
                                 <hr className="pb-2" />
                                 <li>
@@ -40,7 +41,7 @@ const ContattiPages = () => {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                        <i className="fa-brands fa-whatsapp fs-3 color-red"></i>
+                                        <i className="fa-brands fa-whatsapp fs-1 color-red pb-3"></i>
                                     </a>
                                 </li>
                             </ul>
