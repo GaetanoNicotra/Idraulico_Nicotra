@@ -5,7 +5,7 @@ const ContattiPages = () => {
         <>
             <div className="image-container">
                 <img
-                    src="src\assets\imgs\img_home\img_contatti2.jpg"
+                    src="public/imgs/img_home/img_contatti2.jpg"
                     alt="immagine_pagina_contatti"
                     className="img_contatti"
                 />

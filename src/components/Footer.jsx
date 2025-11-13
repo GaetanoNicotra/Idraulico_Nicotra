@@ -62,7 +62,7 @@ const Footer = () => {
 
                         <div className="col-lg-4 col-md-5 col-sm-12 text-white-50">
                             <img
-                                src="src\assets\imgs\img_home\img_logo_footer.png"
+                                src="public/imgs/img_home/img_logo_footer.png"
                                 alt="logo-footer"
                                 className="rounded w-50 mb-2"
                                 aria-label='immagine_logo_idraulico_nicotra'

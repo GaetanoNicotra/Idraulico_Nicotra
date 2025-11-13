@@ -45,7 +45,7 @@ const ImpiantiPage = () => {
                         <div className="carousel-inner ">
 
                             <div className="carousel-item active ">
-                                <img src="src/assets/imgs/imgs_impianti/img_impianti6.jpg" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania6" />
+                                <img src="public/imgs/imgs_impianti/img_impianti6.jpg" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania6" />
                                 <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
                                     <div className="carousel-description">
                                         <h5>Collettore generale</h5>
@@ -55,7 +55,7 @@ const ImpiantiPage = () => {
                             </div>
 
                             <div className="carousel-item">
-                                <img src="src/assets/imgs/imgs_impianti/img_impianti3.jpg" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania3" />
+                                <img src="public/imgs/imgs_impianti/img_impianti3.jpg" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania3" />
                                 <div className="carousel-caption-outside mt-4 mb-4 d-md-block">
                                     <div className='carousel-description'>
                                         <h5 >Impianto a collettore</h5>
@@ -65,7 +65,7 @@ const ImpiantiPage = () => {
                             </div>
 
                             <div className="carousel-item">
-                                <img src="src/assets/imgs/imgs_impianti/img_impianti4.jpg" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania4" />
+                                <img src="public/imgs/imgs_impianti/img_impianti4.jpg" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania4" />
                                 <div className="carousel-caption-outside mt-4 mb-4 d-md-block">
                                     <div className="carousel-description">
                                         <h5>Impianto di scarico</h5>
@@ -75,7 +75,7 @@ const ImpiantiPage = () => {
                             </div>
 
                             <div className="carousel-item">
-                                <img src="src/assets/imgs/imgs_impianti/img_impianti5.jpg" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania5" />
+                                <img src="public/imgs/imgs_impianti/img_impianti5.jpg" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania5" />
                                 <div className="carousel-caption-outside mt-4 mb-4 d-md-block">
                                     <div className="carousel-description">
                                         <h5>Impianto in un prefabbricato in legno</h5>
@@ -86,7 +86,7 @@ const ImpiantiPage = () => {
                             </div>
 
                             <div className="carousel-item">
-                                <img src="src/assets/imgs/imgs_impianti/img_impianti1.jpg" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania1" />
+                                <img src="public/imgs/imgs_impianti/img_impianti1.jpg" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania1" />
                                 <div className="carousel-caption-outside mt-4 mb-4 d-md-block">
                                     <div className='carousel-description'>
                                         <h5>Impianto a collettore</h5>
@@ -96,7 +96,7 @@ const ImpiantiPage = () => {
                             </div>
 
                             <div className="carousel-item">
-                                <img src="src/assets/imgs/imgs_impianti/img_impianti7.jpg" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania7" />
+                                <img src="public/imgs/imgs_impianti/img_impianti7.jpg" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania7" />
                                 <div className="carousel-caption-outside mt-4 mb-4 d-md-block">
                                     <div className='carousel-description'>
                                         <h5>Ristrutturazione Bagno</h5>
@@ -106,11 +106,11 @@ const ImpiantiPage = () => {
                             </div>
 
                             <div className="carousel-item">
-                                <img src="src/assets/imgs/imgs_impianti/img_impianti8.jpeg" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania8" />
+                                <img src="public/imgs/imgs_impianti/img_impianti8.jpeg" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania8" />
                             </div>
 
                             <div className="carousel-item">
-                                <img src="src/assets/imgs/imgs_impianti/img_impianti16.jpg" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania9" />
+                                <img src="public/imgs/imgs_impianti/img_impianti16.jpg" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania9" />
                                 <div className="carousel-caption-outside mt-4 mb-4 d-md-block">
                                     <div className='carousel-description'>
                                         <h5>Cassetta incasso</h5>
@@ -120,7 +120,7 @@ const ImpiantiPage = () => {
                             </div>
 
                             <div className="carousel-item">
-                                <img src="src/assets/imgs/imgs_impianti/impianti_giardino.webp" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania11" />
+                                <img src="public/imgs/imgs_impianti/impianti_giardino.webp" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania11" />
                                 <div className="carousel-caption-outside mt-4 mb-4 d-md-block">
                                     <div className='carousel-description'>
                                         <h5>Impianto di irrigazione</h5>
@@ -131,7 +131,7 @@ const ImpiantiPage = () => {
 
 
                             <div className="carousel-item">
-                                <img src="src/assets/imgs/imgs_impianti/img_impianti11.jpg" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania11" />
+                                <img src="public/imgs/imgs_impianti/img_impianti11.jpg" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania11" />
                                 <div className="carousel-caption-outside mt-4 mb-4 d-md-block">
                                     <div className='carousel-description'>
                                         <h5>Predisposizione per WC e Bidet sospesi</h5>
@@ -141,7 +141,7 @@ const ImpiantiPage = () => {
                             </div>
 
                             <div className="carousel-item">
-                                <img src="src/assets/imgs/imgs_impianti/img_impianti12.jpg" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania12" />
+                                <img src="public/imgs/imgs_impianti/img_impianti12.jpg" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania12" />
                                 <div className="carousel-caption-outside mt-4 mb-4 d-md-block">
                                     <div className='carousel-description'>
                                         <h5>Impianto completo per Bagno</h5>
@@ -151,7 +151,7 @@ const ImpiantiPage = () => {
                             </div>
 
                             <div className="carousel-item">
-                                <img src="src/assets/imgs/imgs_impianti/img_impianti13.jpg" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania3" />
+                                <img src="public/imgs/imgs_impianti/img_impianti13.jpg" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania3" />
                                 <div className="carousel-caption-outside mt-4 mb-4 d-md-block">
                                     <div className="carousel-description">
                                         <h5>Impianto completo per Bagno</h5>
@@ -161,7 +161,7 @@ const ImpiantiPage = () => {
                             </div>
 
                             <div className="carousel-item">
-                                <img src="src/assets/imgs/imgs_impianti/img_impianti15.jpg" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania15" />
+                                <img src="public/imgs/imgs_impianti/img_impianti15.jpg" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania15" />
                                 <div className="carousel-caption-outside mt-4 mb-4 d-md-block">
                                     <div className="carousel-description">
                                         <h5>Impianto per lavanderia</h5>
@@ -170,7 +170,7 @@ const ImpiantiPage = () => {
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img src="src/assets/imgs/imgs_impianti/impianto_addolcitore.jpg" id='addolcitore' className="d-block w-75 carousel-img rounded" alt="img-impianti-catania3" />
+                                <img src="public/imgs/imgs_impianti/impianto_addolcitore.jpg" id='addolcitore' className="d-block w-75 carousel-img rounded" alt="img-impianti-catania3" />
                                 <div className="carousel-caption-outside mt-4 mb-4 d-md-block">
                                     <div className='carousel-description'>
                                         <h5>Addolcitore idrico</h5>
