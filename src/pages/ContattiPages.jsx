@@ -5,7 +5,7 @@ const ContattiPages = () => {
         <>
             <div className="image-container">
                 <img
-                    src="public/imgs/img_home/img_contatti2.jpg"
+                    src="/imgs/img_home/img_contatti2.jpg"
                     alt="immagine_pagina_contatti"
                     className="img_contatti"
                 />
@@ -34,7 +34,7 @@ const ContattiPages = () => {
                                     <h4>WhatsApp</h4>
                                     <p>Inviaci un messaggio su WhatsApp, ti risponderemo il prima possibile</p>
                                 </li>
-                                <hr className="pb-2" />
+
                                 <li>
                                     <a
                                         href="https://wa.me/393387725379?text=Salve,%20vorrei%20essere%20contattato"
@@ -43,6 +43,7 @@ const ContattiPages = () => {
                                     >
                                         <i className="fa-brands fa-whatsapp fs-1 color-red pb-3"></i>
                                     </a>
+                                    <hr className="pb-2" />
                                 </li>
                             </ul>
                         </div>
@@ -55,7 +56,7 @@ const ContattiPages = () => {
 
                     {/* Blocco sinistro: Contatti */}
                     <div className="col-lg-5 col-md-6 col-sm-12 d-flex align-items-center justify-content-center mb-5 mb-md-0">
-                        <i className="fa-regular fa-user fs-2 color-red me-5"></i>
+                        <i className="fa-regular fa-user fs-1 color-red me-5"></i>
                         <ul className="list-unstyled mb-5 mt-5 text-start lh-lg">
                             <li>
                                 <b>Telefono</b>
@@ -91,7 +92,7 @@ const ContattiPages = () => {
                                 <b>Domenica:</b> Chiuso
                             </li>
                         </ul>
-                        <i className="fa-regular fa-clock fs-2 color-red ms-5"></i>
+                        <i className="fa-regular fa-clock fs-1 color-red ms-5"></i>
                     </div>
 
                 </div>

@@ -21,7 +21,7 @@ const RistrutturazioniPage = () => {
                     </ul>
 
                     <div className='col-12 text-center '>
-                        <video className='w-75 mx-h rounded' src="public/imgs/imgs_ristrutturazioni/VID-20231028-WA0007.mp4" autoPlay controls loop muted></video>
+                        <video className='w-75 mx-h rounded' src="/imgs/imgs_ristrutturazioni/VID-20231028-WA0007.mp4" autoPlay controls loop muted></video>
                         <div className='carousel-description mb-4 mt-4'>
                             <h5>Ristrutturazione completa di un monovano</h5>
                             <p><a href="https://www.dimorabianca.it/"><u className='color-red'>Scopri di più su Dimora Bianca</u></a></p>

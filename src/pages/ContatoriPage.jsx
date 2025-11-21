@@ -35,7 +35,7 @@ const ContatoriPage = () => {
 
                                 <div className="carousel-item active">
                                     <div className='d-flex justify-content-center'>
-                                        <img src="public/imgs/img_contatori/img_idraulico_contatori3.jpg" className="d-block carousel-img rounded" alt="img-contatori-catania3" />
+                                        <img src="/imgs/img_contatori/img_idraulico_contatori3.jpg" className="d-block carousel-img rounded" alt="img-contatori-catania3" />
                                     </div>
                                     <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
                                         <div className='carousel-description'>
@@ -49,7 +49,7 @@ const ContatoriPage = () => {
 
                                 <div className="carousel-item ">
                                     <div className='d-flex justify-content-center'>
-                                        <img src="public/imgs/img_contatori/img_idraulico_contatori1.jpg" className="d-block carousel-img rounded" alt="img-contatori-catania1" />
+                                        <img src="/imgs/img_contatori/img_idraulico_contatori1.jpg" className="d-block carousel-img rounded" alt="img-contatori-catania1" />
                                     </div>
                                     <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
                                         <div className='carousel-description'>
@@ -61,7 +61,7 @@ const ContatoriPage = () => {
 
                                 <div className="carousel-item">
                                     <div className='d-flex justify-content-center'>
-                                        <img src="public/imgs/img_contatori/img_idraulico_contatori2.jpg" className="d-block carousel-img rounded" alt="img-contatori-catania2" />
+                                        <img src="/imgs/img_contatori/img_idraulico_contatori2.jpg" className="d-block carousel-img rounded" alt="img-contatori-catania2" />
                                     </div>
                                     <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
                                         <div className='carousel-description'>

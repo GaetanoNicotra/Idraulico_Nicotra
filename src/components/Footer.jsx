@@ -62,7 +62,7 @@ const Footer = () => {
 
                         <div className="col-lg-4 col-md-5 col-sm-12 text-white-50">
                             <img
-                                src="public/imgs/img_home/img_logo_footer.png"
+                                src="/imgs/img_home/img_logo_footer.png"
                                 alt="logo-footer"
                                 className="rounded w-50 mb-2"
                                 aria-label='immagine_logo_idraulico_nicotra'
@@ -77,6 +77,7 @@ const Footer = () => {
                     </div>
 
                 </div>
+                <div className='text-center text-dark-emphasis'>Sito web realizzato da <a href="https://www.linkedin.com/in/gaetano-nicotra-67b0aa378"><u>Nicotra Gaetano</u></a></div>
             </div>
         </>
     );

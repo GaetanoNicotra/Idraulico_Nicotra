@@ -9,11 +9,11 @@ const Homepage = () => {
                 <div className="row">
 
                     <div className="col-lg-6 col-md-6 col-sm-12 d-flex">
-                        <img src="public\imgs\img_home\img_home.jpg" alt="immagine_ufficio" className='jumbotron w-75 rounded' />
+                        <img src="\imgs\img_home\img_home.jpg" alt="immagine_ufficio" className='jumbotron w-75 rounded' />
                     </div>
 
                     <div className='col-lg-6 col-md-6 col-sm-12 px-3 pt-2'>
-                        <h4 className='border-custom pb-4 fw-semibold'>Chi siamo</h4>
+                        <h3 className='border-custom pb-4 fw-semibold'>Chi siamo</h3>
                         <p className='pt-4'>
                             L’<strong>Idraulico Nicotra</strong>, con sede storica in
                             <strong> Viale Mario Rapisardi 523 a Catania</strong>, è un punto di riferimento
@@ -45,10 +45,9 @@ const Homepage = () => {
 
             <div className="container">
 
-
-
                 <div className="row pb-5">
-                    <div className="col-lg-12"><h4 className="mb-4 mt-5 pb-4 fw-semibold" id='border-custom'>Dove trovarci</h4>
+                    <div className="col-lg-12"><h3 className="mb-4 mt-5 pb-4 fw-semibold" id='border-custom'>Dove trovarci</h3>
+                        <h6><b><u>Ufficio</u></b></h6>
                         <h6 className='mb-4'>Viale Mario Rapisardi, <b>523</b>, 95123 Catania <b>(CT)</b></h6>
                     </div>
                     <div className="col-lg-12">

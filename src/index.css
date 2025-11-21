@@ -98,12 +98,39 @@ nav {
   position: absolute;
   top: 10px;
   left: 80px;
-  color: rgb(255, 255, 255);
-  background-color: rgba(31, 31, 31, 0.7);
-  padding: 6px 26px;
   z-index: 10;
-  border-radius: 5px;
+  background: linear-gradient(135deg, rgba(51, 51, 51, 0.85), rgba(76, 76, 76, 0.774));
+  padding: 6px 26px;
+  border-radius: 8px;
+
+  /* Effetto vetro-lucido */
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+
+  /* Tipografia più professionale */
+
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+
+  /* Leggera animazione di entrata */
+  animation: fadeInOverlay 0.8s ease-in-out;
 }
+
+/* Effetto fade-in */
+@keyframes fadeInOverlay {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 
 .card-servizi img:hover {
   filter: opacity(0.5);

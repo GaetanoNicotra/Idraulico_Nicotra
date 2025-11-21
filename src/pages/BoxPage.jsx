@@ -34,7 +34,7 @@ const BoxPage = () => {
 
                                 <div className="carousel-item active">
                                     <div className='d-flex justify-content-center'>
-                                        <img src="public/imgs/imgs_Box-doccia/img_idraulico_boxdoccia1.jpg" className="d-block carousel-img rounded" alt="img-boxdoccia-catania1" />
+                                        <img src="/imgs/imgs_Box-doccia/img_idraulico_boxdoccia1.jpg" className="d-block carousel-img rounded" alt="img-boxdoccia-catania1" />
                                     </div>
                                     <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
                                         <div className='carousel-description'>
@@ -46,7 +46,7 @@ const BoxPage = () => {
 
                                 <div className="carousel-item">
                                     <div className='d-flex justify-content-center'>
-                                        <img src="public/imgs/imgs_Box-doccia/img_idraulico_boxdoccia2.jpg" className="d-block carousel-img rounded" alt="img-boxdoccia-catania2" />
+                                        <img src="/imgs/imgs_Box-doccia/img_idraulico_boxdoccia2.jpg" className="d-block carousel-img rounded" alt="img-boxdoccia-catania2" />
                                     </div>
                                     <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
                                         <div className='carousel-description'>
@@ -58,7 +58,7 @@ const BoxPage = () => {
 
                                 <div className="carousel-item">
                                     <div className='d-flex justify-content-center'>
-                                        <img src="public/imgs/imgs_Box-doccia/img_idraulico_boxdoccia3.jpg" className="d-block carousel-img rounded" alt="img-boxdoccia-catania3" />
+                                        <img src="/imgs/imgs_Box-doccia/img_idraulico_boxdoccia3.jpg" className="d-block carousel-img rounded" alt="img-boxdoccia-catania3" />
                                     </div>
                                     <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
                                         <div className='carousel-description'>
@@ -70,7 +70,7 @@ const BoxPage = () => {
 
                                 <div className="carousel-item">
                                     <div className='d-flex justify-content-center'>
-                                        <img src="public/imgs/imgs_Box-doccia/img_idraulico_boxdoccia4.webp" className="d-block carousel-img rounded" alt="img-boxdoccia-catania3" />
+                                        <img src="/imgs/imgs_Box-doccia/img_idraulico_boxdoccia4.webp" className="d-block carousel-img rounded" alt="img-boxdoccia-catania3" />
                                     </div>
                                     <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
                                         <div className='carousel-description'>

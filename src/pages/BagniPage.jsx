@@ -42,7 +42,7 @@ const BagniPage = () => {
 
                             <div className="carousel-item active">
                                 <div className='d-flex justify-content-center'>
-                                    <img src="public/imgs/imgs_bagni/img_idraulico_bagni7.jpeg" className="d-block carousel-img rounded" alt="img-bagni-catania1" />
+                                    <img src="/imgs/imgs_bagni/img_idraulico_bagni7.jpeg" className="d-block carousel-img rounded" alt="img-bagni-catania1" />
                                 </div>
                                 <div className="carousel-caption-ouside mt-4 mb-4 d-md-block ">
                                     <div className='carousel-description'>
@@ -54,7 +54,7 @@ const BagniPage = () => {
 
                             <div className="carousel-item">
                                 <div className='d-flex justify-content-center'>
-                                    <img src="public/imgs/imgs_bagni/img_idraulico_bagni2.jpg" className="d-block carousel-img rounded" alt="img-bagni-catania2" />
+                                    <img src="/imgs/imgs_bagni/img_idraulico_bagni2.jpg" className="d-block carousel-img rounded" alt="img-bagni-catania2" />
                                 </div>
                                 <div className="carousel-caption-ouside mt-4 mb-4 d-md-block ">
                                     <div className='carousel-description'>
@@ -66,7 +66,7 @@ const BagniPage = () => {
 
                             <div className="carousel-item">
                                 <div className='d-flex justify-content-center'>
-                                    <img src="public/imgs/imgs_bagni/img_idraulico_bagni3.jpg" className="d-block carousel-img rounded" alt="img-bagni-catania3" />
+                                    <img src="/imgs/imgs_bagni/img_idraulico_bagni3.jpg" className="d-block carousel-img rounded" alt="img-bagni-catania3" />
                                 </div>
                                 <div className="carousel-caption-ouside mt-4 mb-4 d-md-block ">
                                     <div className='carousel-description'>
@@ -78,7 +78,7 @@ const BagniPage = () => {
 
                             <div className="carousel-item">
                                 <div className='d-flex justify-content-center'>
-                                    <img src="public/imgs/imgs_bagni/img_idraulico_bagni5.jpg" className="d-block carousel-img rounded" alt="img-bagni-catania5" />
+                                    <img src="/imgs/imgs_bagni/img_idraulico_bagni5.jpg" className="d-block carousel-img rounded" alt="img-bagni-catania5" />
                                 </div>
                                 <div className="carousel-caption-ouside mt-4 mb-4 d-md-block ">
                                     <div className='carousel-description'>
@@ -90,7 +90,7 @@ const BagniPage = () => {
 
                             <div className="carousel-item">
                                 <div className='d-flex justify-content-center'>
-                                    <img src="public/imgs/imgs_bagni/img_idraulico_bagni8.jpeg" className="d-block carousel-img rounded" alt="img-bagni-catania8" />
+                                    <img src="/imgs/imgs_bagni/img_idraulico_bagni8.jpeg" className="d-block carousel-img rounded" alt="img-bagni-catania8" />
                                 </div>
                                 <div className="carousel-caption-ouside mt-4 mb-4 d-md-block ">
                                     <div className='carousel-description'>
@@ -102,7 +102,7 @@ const BagniPage = () => {
 
                             <div className="carousel-item">
                                 <div className='d-flex justify-content-center'>
-                                    <img src="public/imgs/imgs_bagni/img_idraulico_bagni11.jpeg" className="d-block carousel-img rounded" alt="img-bagni-catania11" />
+                                    <img src="/imgs/imgs_bagni/img_idraulico_bagni11.jpeg" className="d-block carousel-img rounded" alt="img-bagni-catania11" />
                                 </div>
                                 <div className="carousel-caption-ouside mt-4 mb-4 d-md-block ">
                                     <div className='carousel-description'>
@@ -114,7 +114,7 @@ const BagniPage = () => {
 
                             <div className="carousel-item">
                                 <div className='d-flex justify-content-center'>
-                                    <img src="public/imgs/imgs_bagni/img_idraulico_bagni12.jpg" className="d-block carousel-img rounded" alt="img-bagni-catania12" />
+                                    <img src="/imgs/imgs_bagni/img_idraulico_bagni12.jpg" className="d-block carousel-img rounded" alt="img-bagni-catania12" />
                                 </div>
                                 <div className="carousel-caption-ouside mt-4 mb-4 d-md-block ">
                                     <div className='carousel-description'>
@@ -126,7 +126,7 @@ const BagniPage = () => {
 
                             <div className="carousel-item">
                                 <div className='d-flex justify-content-center'>
-                                    <img src="public/imgs/imgs_bagni/img_idraulico_bagni13.jpg" className="d-block carousel-img rounded" id='img-house-wood' alt="img-bagni-catania13" />
+                                    <img src="/imgs/imgs_bagni/img_idraulico_bagni13.jpg" className="d-block carousel-img rounded" id='img-house-wood' alt="img-bagni-catania13" />
                                 </div>
                                 <div className="carousel-caption-ouside mt-4 mb-4 d-md-block ">
                                     <div className='carousel-description'>
@@ -138,7 +138,7 @@ const BagniPage = () => {
 
                             <div className="carousel-item">
                                 <div className='d-flex justify-content-center'>
-                                    <img src="public/imgs/imgs_bagni/img_idraulico_bagni10.jpg" className="d-block carousel-img rounded" alt="img-bagni-catania17" />
+                                    <img src="/imgs/imgs_bagni/img_idraulico_bagni10.jpg" className="d-block carousel-img rounded" alt="img-bagni-catania17" />
                                 </div>
                                 <div className="carousel-caption-ouside mt-4 mb-4 d-md-block ">
                                     <div className='carousel-description'>
@@ -150,7 +150,7 @@ const BagniPage = () => {
 
                             <div className="carousel-item">
                                 <div className='d-flex justify-content-center'>
-                                    <img src="public/imgs/imgs_bagni/img_idraulico_bagni14.jpg" className="d-block carousel-img rounded" alt="img-bagni-catania18" />
+                                    <img src="/imgs/imgs_bagni/img_idraulico_bagni14.jpg" className="d-block carousel-img rounded" alt="img-bagni-catania18" />
                                 </div>
                                 <div className="carousel-caption-ouside mt-4 mb-4 d-md-block ">
                                     <div className='carousel-description'>
