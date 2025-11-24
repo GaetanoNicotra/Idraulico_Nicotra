@@ -19,6 +19,18 @@ Il sito è stato interamente progettato e implementato da me, compresa la gestio
 
 ---
 
+## ✍🏻 Descrizione del progetto:
+
+Il sito è strutturato come una **Single Page Application**.
+
+L’homepage introduce l’azienda, presentando i principali **servizi offerti**, la **storia** della ditta e i punti di forza che la contraddistinguono. Da qui l’utente può accedere rapidamente a tutte le sezioni del sito.
+
+Ciascun servizio dispone di una pagina dedicata, con una breve **descrizione** e un carosello **fotografico** che mostra realizzazioni e interventi eseguiti dall’azienda. 📷
+
+Il sito include anche sezioni informative come **“Chi Siamo”** e **“Perché Sceglierci”**, pensate per comunicare professionalità, esperienza e valori dell’azienda.
+
+---
+
 ## ✨ Funzionalità principali
 - Single Page Application sviluppata con **React 19**
 - Navigazione gestita tramite **React Router DOM 6**
