@@ -9,11 +9,11 @@ const Homepage = () => {
                 <div className="row">
 
                     <div className="col-lg-6 col-md-6 col-sm-12 d-flex">
-                        <img src="\imgs\img_home\img_home.jpg" alt="immagine_ufficio" className='jumbotron w-75 rounded' />
+                        <img src="\imgs\img_home\img_homepage.jpg" alt="immagine_ufficio" className='jumbotron w-75 rounded' />
                     </div>
 
                     <div className='col-lg-6 col-md-6 col-sm-12 px-3 pt-2'>
-                        <h3 className='border-custom pb-4 fw-semibold'>Chi siamo</h3>
+                        <h1 className='border-custom pb-4 fw-semibold'>Chi siamo</h1>
                         <p className='pt-4'>
                             L’<strong>Idraulico Nicotra</strong>, con sede storica in
                             <strong> Viale Mario Rapisardi 523 a Catania</strong>, è un punto di riferimento
