@@ -34,13 +34,13 @@ const Header = () => {
 
                     <ul className='navbar-nav d-flex align-items-center gap-lg-5 link-header'>
                         <li className="nav-item">
-                            <Link to='/' className='nav-link text-black'>Home</Link>
+                            <Link to='/' className='nav-link text-black fw-medium'>Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/pagina-Contatti' className='nav-link text-black'>Contatti</Link>
+                            <Link to='/pagina-Contatti' className='nav-link text-black fw-medium'>Contatti</Link>
                         </li>
                         <li className="nav-item">
-                            <HashLink smooth to="/pagina-Bagni#gallery" className='nav-link text-black'>I nostri lavori</HashLink>
+                            <HashLink smooth to="/pagina-Bagni#gallery" className='nav-link text-black fw-medium'>I nostri lavori</HashLink>
                         </li>
                     </ul>
 

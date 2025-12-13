@@ -44,7 +44,8 @@ nav {
 
 .link-header li:hover {
   border-bottom: 2px solid #FD0100;
-  font-weight: 700;
+  transform: scale(1.1);
+  transition-duration: 0.2s;
 }
 
 
