@@ -9,7 +9,7 @@ const Homepage = () => {
                 <div className="row">
 
                     <div className="col-lg-6 col-md-6 col-sm-12 d-flex">
-                        <img src="\imgs\img_home\img_homepage.jpg" alt="immagine_ufficio" className='jumbotron w-75 rounded' />
+                        <img src="\imgs\img_home\img-home.jpg" alt="immagine_ufficio" className='jumbotron w-75 rounded' />
                     </div>
 
                     <div className='col-lg-6 col-md-6 col-sm-12 px-3 pt-2'>

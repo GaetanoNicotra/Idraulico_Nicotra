@@ -14,7 +14,7 @@ const Header = () => {
 
                 <Link to='/'><img src="/imgs/img_home/Idraulico_Nicotra_Logo.jpg" alt="logo_header" className='pb-3 mt-2' /></Link>
 
-                <a href="https://wa.me/393387725379?text=Salve,%20vorrei%20essere%20contattato." target="_blank" rel="noopener noreferrer" id='button-whatsapp' >
+                <a href="https://wa.me/393387725379?text=Salve,%20vorrei%20essere%20contattato." target="_blank" rel="noopener noreferrer" id='button-whatsapp' aria-label='Clicca sul logo di whatsapp per contattarci' >
                     <i className="fa-brands fa-whatsapp fs-1 color-red"></i>
                 </a>
                 {/* Hamburger menù */}

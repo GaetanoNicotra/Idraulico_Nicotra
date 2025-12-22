@@ -53,14 +53,13 @@ nav {
 
 .jumbotron {
   margin: auto;
-
+  box-shadow: 6px 15px 26px 3px #3a3a3ac6;
 }
 
 .map {
   width: 100%;
   height: 300px;
   border-radius: 15px;
-
 }
 
 .border-custom {
@@ -291,7 +290,7 @@ i {
   }
 
   .jumbotron {
-    padding-bottom: 30px;
+    margin-bottom: 30px;
   }
 
   .border-custom-contatti {
@@ -356,7 +355,7 @@ i {
 /* Altri stili */
 @media screen and (max-width:500px) {
   .jumbotron {
-    padding-bottom: 30px;
+    margin-bottom: 30px;
   }
 
   nav img {
