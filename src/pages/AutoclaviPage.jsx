@@ -39,7 +39,7 @@ const AutoclaviPage = () => {
 
                                 <div className="carousel-item active">
                                     <div className='d-flex justify-content-center'>
-                                        <img src="/imgs/imgs_autoclavi/img_idraulica_autoclave11.jpg" className="d-block carousel-img rounded" alt="img-impianti-catania1" />
+                                        <img src="/imgs/imgs_autoclavi/img_idraulica_autoclave11.jpg" className="d-block carousel-img rounded" alt='autoclavi-idrauliche' />
                                     </div>
                                     <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
                                         <div className='carousel-description'>
@@ -51,7 +51,7 @@ const AutoclaviPage = () => {
 
                                 <div className="carousel-item">
                                     <div className='d-flex justify-content-center'>
-                                        <img src="/imgs/imgs_autoclavi/img_idraulica_autoclave2.jpg" className="d-block carousel-img rounded" alt="img-impianti-catania2" />
+                                        <img src="/imgs/imgs_autoclavi/img_idraulica_autoclave2.jpg" className="d-block carousel-img rounded" alt='autoclavi-idrauliche' />
                                     </div>
                                     <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
                                         <div className='carousel-description'>
@@ -64,7 +64,7 @@ const AutoclaviPage = () => {
 
                                 <div className="carousel-item">
                                     <div className='d-flex justify-content-center'>
-                                        <img src="/imgs/imgs_autoclavi/img_idraulica_autoclave4.jpg" className="d-block carousel-img rounded" alt="img-impianti-catania4" />
+                                        <img src="/imgs/imgs_autoclavi/img_idraulica_autoclave4.jpg" className="d-block carousel-img rounded" alt='autoclavi-idrauliche' />
                                     </div>
                                     <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
                                         <div className='carousel-description'>
@@ -76,7 +76,7 @@ const AutoclaviPage = () => {
 
                                 <div className="carousel-item">
                                     <div className='d-flex justify-content-center'>
-                                        <img src="/imgs/imgs_autoclavi/img_idraulica_autoclave5.jpg" className="d-block carousel-img rounded" alt="img-impianti-catania5" />
+                                        <img src="/imgs/imgs_autoclavi/img_idraulica_autoclave5.jpg" className="d-block carousel-img rounded" alt='autoclavi-idrauliche' />
                                     </div>
                                     <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
                                         <div className='carousel-description'>
@@ -88,7 +88,7 @@ const AutoclaviPage = () => {
 
                                 <div className="carousel-item">
                                     <div className='d-flex justify-content-center'>
-                                        <img src="/imgs/imgs_autoclavi/img_idraulica_autoclave6.jpg" className="d-block carousel-img rounded" alt="img-impianti-catania6" />
+                                        <img src="/imgs/imgs_autoclavi/img_idraulica_autoclave6.jpg" className="d-block carousel-img rounded" alt='autoclavi-idrauliche' />
                                     </div>
                                     <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
                                         <div className='carousel-description'>
@@ -101,7 +101,7 @@ const AutoclaviPage = () => {
 
                                 <div className="carousel-item">
                                     <div className='d-flex justify-content-center'>
-                                        <img src="/imgs/imgs_autoclavi/img_idraulica_autoclave8.jpg" className="d-block carousel-img rounded" alt="img-impianti-catania8" />
+                                        <img src="/imgs/imgs_autoclavi/img_idraulica_autoclave8.jpg" className="d-block carousel-img rounded" alt='autoclavi-idrauliche' />
                                     </div>
                                     <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
                                         <div className='carousel-description'>
@@ -114,7 +114,7 @@ const AutoclaviPage = () => {
 
                                 <div className="carousel-item">
                                     <div className='d-flex justify-content-center'>
-                                        <img src="/imgs/imgs_autoclavi/img_idraulica_autoclave12.jpg" className="d-block carousel-img rounded" alt="img-impianti-catania12" />
+                                        <img src="/imgs/imgs_autoclavi/img_idraulica_autoclave12.jpg" className="d-block carousel-img rounded" alt='autoclavi-idrauliche' />
                                     </div>
                                     <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
                                         <div className='carousel-description'>
@@ -126,7 +126,7 @@ const AutoclaviPage = () => {
 
                                 <div className="carousel-item">
                                     <div className='d-flex justify-content-center'>
-                                        <img src="/imgs/imgs_autoclavi/img_idraulica_autoclave14.jpg" className="d-block carousel-img rounded" alt="img-impianti-catania14" />
+                                        <img src="/imgs/imgs_autoclavi/img_idraulica_autoclave14.jpg" className="d-block carousel-img rounded" alt='autoclavi-idrauliche' />
                                     </div>
                                     <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
                                         <div className='carousel-description'>

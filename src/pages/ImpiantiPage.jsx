@@ -45,7 +45,7 @@ const ImpiantiPage = () => {
                         <div className="carousel-inner ">
 
                             <div className="carousel-item active ">
-                                <img src="/imgs/imgs_impianti/img_impianti6.jpg" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania6" />
+                                <img src="/imgs/imgs_impianti/img_impianti6.jpg" className="d-block w-100 carousel-img rounded" alt='impianti-idraulici' />
                                 <div className="carousel-caption-outside mt-4 mb-4 d-md-block ">
                                     <div className="carousel-description">
                                         <h5>Collettore generale</h5>
@@ -55,7 +55,7 @@ const ImpiantiPage = () => {
                             </div>
 
                             <div className="carousel-item">
-                                <img src="/imgs/imgs_impianti/img_impianti3.jpg" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania3" />
+                                <img src="/imgs/imgs_impianti/img_impianti3.jpg" className="d-block w-100 carousel-img rounded" alt='impianti-idraulici' />
                                 <div className="carousel-caption-outside mt-4 mb-4 d-md-block">
                                     <div className='carousel-description'>
                                         <h5 >Impianto a collettore</h5>
@@ -65,7 +65,7 @@ const ImpiantiPage = () => {
                             </div>
 
                             <div className="carousel-item">
-                                <img src="/imgs/imgs_impianti/img_impianti4.jpg" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania4" />
+                                <img src="/imgs/imgs_impianti/img_impianti4.jpg" className="d-block w-100 carousel-img rounded" alt='impianti-idraulici' />
                                 <div className="carousel-caption-outside mt-4 mb-4 d-md-block">
                                     <div className="carousel-description">
                                         <h5>Impianto di scarico</h5>
@@ -75,7 +75,7 @@ const ImpiantiPage = () => {
                             </div>
 
                             <div className="carousel-item">
-                                <img src="/imgs/imgs_impianti/img_impianti5.jpg" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania5" />
+                                <img src="/imgs/imgs_impianti/img_impianti5.jpg" className="d-block w-100 carousel-img rounded" alt='impianti-idraulici' />
                                 <div className="carousel-caption-outside mt-4 mb-4 d-md-block">
                                     <div className="carousel-description">
                                         <h5>Impianto in un prefabbricato in legno</h5>
@@ -86,7 +86,7 @@ const ImpiantiPage = () => {
                             </div>
 
                             <div className="carousel-item">
-                                <img src="/imgs/imgs_impianti/img_impianti1.jpg" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania1" />
+                                <img src="/imgs/imgs_impianti/img_impianti1.jpg" className="d-block w-100 carousel-img rounded" alt='impianti-idraulici' />
                                 <div className="carousel-caption-outside mt-4 mb-4 d-md-block">
                                     <div className='carousel-description'>
                                         <h5>Impianto a collettore</h5>
@@ -96,7 +96,7 @@ const ImpiantiPage = () => {
                             </div>
 
                             <div className="carousel-item">
-                                <img src="/imgs/imgs_impianti/img_impianti7.jpg" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania7" />
+                                <img src="/imgs/imgs_impianti/img_impianti7.jpg" className="d-block w-100 carousel-img rounded" alt='impianti-idraulici' />
                                 <div className="carousel-caption-outside mt-4 mb-4 d-md-block">
                                     <div className='carousel-description'>
                                         <h5>Ristrutturazione Bagno</h5>
@@ -106,11 +106,11 @@ const ImpiantiPage = () => {
                             </div>
 
                             <div className="carousel-item">
-                                <img src="/imgs/imgs_impianti/img_impianti8.jpeg" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania8" />
+                                <img src="/imgs/imgs_impianti/img_impianti8.jpeg" className="d-block w-100 carousel-img rounded" alt='impianti-idraulici' />
                             </div>
 
                             <div className="carousel-item">
-                                <img src="/imgs/imgs_impianti/img_impianti16.jpg" className="d-block w-100 carousel-img rounded" alt="img-impianti-catania9" />
+                                <img src="/imgs/imgs_impianti/img_impianti16.jpg" className="d-block w-100 carousel-img rounded" alt='impianti-idraulici' />
                                 <div className="carousel-caption-outside mt-4 mb-4 d-md-block">
                                     <div className='carousel-description'>
                                         <h5>Cassetta incasso</h5>
